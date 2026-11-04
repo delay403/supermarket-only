@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c8fb7a35d17d924b8648f5e38c88ce4, type: 3}
+  m_Name: WingDef 0
+  m_EditorClassIdentifier: 
+  wingId: wing_1
+  displayName: "\u5C0F\u5C0F\u7FBD"
+  level: 1
+  quality: 0
+  priceCoins: 200
+  requiredUnlockedLevel: 0
+  prefab: {fileID: 7533130413109847436, guid: 371fb5a5958a7be418660a362e862442, type: 3}
+  shopIcon: {fileID: 21300000, guid: fa54fcbf69b0ead4188a1b4aacb82fbb, type: 3}
+  modifiers:
+    climbSpeedAdd: 2
+    climbSpeedMul: 0
+    coinsMul: 0
+    coinsAdd: 0
+    fishingPowerAdd: 2
+    fishingPowerMul: 0
+    fishingProgressAdd: 0
+    fishingCoinMul: 0
+    fishingTrainSpeedMul: 0
+    fishingSpecialCatchBonus: 0

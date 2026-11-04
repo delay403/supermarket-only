@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3e966ad9516a6a45b7a353d299be765, type: 3}
+  m_Name: StrengthTrainingGroundDatabase
+  m_EditorClassIdentifier: 
+  grounds:
+  - groundId: training_1
+    displayName: "Lv.1 \u8BAD\u7EC3\u573A"
+    bonusPerInterval: 1
+    unlockPolicy: 0
+    gemUnlockCost: 0
+    claimsRequired: 1
+    animSpeedOverride: 0
+  - groundId: training_2
+    displayName: "Lv.1 \u8BAD\u7EC3\u573A VIP"
+    bonusPerInterval: 2
+    unlockPolicy: 1
+    gemUnlockCost: 0
+    claimsRequired: 1
+    animSpeedOverride: 0
+  - groundId: training_3
+    displayName: "Lv.2 \u8BAD\u7EC3\u573A"
+    bonusPerInterval: 2
+    unlockPolicy: 0
+    gemUnlockCost: 0
+    claimsRequired: 1
+    animSpeedOverride: 0
+  - groundId: training_4
+    displayName: "Lv.2 \u8BAD\u7EC3\u573A VIP"
+    bonusPerInterval: 4
+    unlockPolicy: 1
+    gemUnlockCost: 0
+    claimsRequired: 1
+    animSpeedOverride: 0
+  - groundId: training_5
+    displayName: "Lv3 \u8BAD\u7EC3\u573A"
+    bonusPerInterval: 3
+    unlockPolicy: 0
+    gemUnlockCost: 0
+    claimsRequired: 1
+    animSpeedOverride: 0
+  - groundId: training_6
+    displayName: "Lv.3 \u8BAD\u7EC3\u573A VIP"
+    bonusPerInterval: 6
+    unlockPolicy: 1
+    gemUnlockCost: 0
+    claimsRequired: 1
+    animSpeedOverride: 0
+  - groundId: training_7
+    displayName: "Lv.4 \u8BAD\u7EC3\u573A VIP"
+    bonusPerInterval: 4
+    unlockPolicy: 0
+    gemUnlockCost: 0
+    claimsRequired: 1
+    animSpeedOverride: 0
+  - groundId: training_8
+    displayName: "Lv.4 \u8BAD\u7EC3\u573A VIP"
+    bonusPerInterval: 8
+    unlockPolicy: 1
+    gemUnlockCost: 0
+    claimsRequired: 1
+    animSpeedOverride: 0

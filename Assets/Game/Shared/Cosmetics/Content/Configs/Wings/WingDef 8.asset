@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c8fb7a35d17d924b8648f5e38c88ce4, type: 3}
+  m_Name: WingDef 8
+  m_EditorClassIdentifier: 
+  wingId: wing_9
+  displayName: "\u51E4\u51F0\u706B\u7FFC"
+  level: 9
+  quality: 2
+  priceCoins: 133000
+  requiredUnlockedLevel: 8
+  prefab: {fileID: 7533130413109847436, guid: 076cb0ef28502df4aa8b31cd7811b71a, type: 3}
+  shopIcon: {fileID: 21300000, guid: 64811adae41822d489b73f1b30270cde, type: 3}
+  modifiers:
+    climbSpeedAdd: 20
+    climbSpeedMul: 0
+    coinsMul: 0
+    coinsAdd: 0

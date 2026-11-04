@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b24af81ec47f44789944126351dcbf41, type: 3}
+  m_Name: PetHatchPoolsCatalog
+  m_EditorClassIdentifier: 
+  pools:
+  - {fileID: 11400000, guid: 582958977123ee447a130ab78bb8220e, type: 2}
+  - {fileID: 11400000, guid: 727b60d85ee0a564ba97ef13e9e274be, type: 2}
+  - {fileID: 11400000, guid: 697ac97ae1b0d4b43953c342e13ede5f, type: 2}
+  - {fileID: 11400000, guid: 3b33daa0bdeb45747b87b41c348a8ac7, type: 2}

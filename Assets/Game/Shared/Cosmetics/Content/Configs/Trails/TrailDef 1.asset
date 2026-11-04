@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 965ea12a29fa6704d89111ccf4f331d1, type: 3}
+  m_Name: TrailDef 1
+  m_EditorClassIdentifier: 
+  trailId: trail_2
+  displayName: "\u84DD\u8272\u62D6\u5C3E"
+  level: 2
+  quality: 1
+  priceCoins: 1000
+  requiredUnlockedLevel: 1
+  prefab: {fileID: 8587857913241539357, guid: f5aa2173ce15e4a469b067581d1891e1, type: 3}
+  shopIcon: {fileID: 21300000, guid: de20d424479788e42911fe4e3e22c82d, type: 3}
+  modifiers:
+    climbSpeedAdd: 0
+    climbSpeedMul: 0
+    coinsMul: 0
+    coinsAdd: 0
+    fishingPowerAdd: 0
+    fishingPowerMul: 0.1
+    fishingProgressAdd: 0
+    fishingCoinMul: 0
+    fishingTrainSpeedMul: 0
+    fishingSpecialCatchBonus: 0
+    wormDodgeMoveSpeedAdd: 0
+    wormDodgeMoveSpeedMul: 0
+    wormDodgeCoinMul: 0.2

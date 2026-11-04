@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91395b1eb8b4ef04f81fac3ea0a9a2fc, type: 3}
+  m_Name: Producer_fuel_producer_manual
+  m_EditorClassIdentifier: 
+  producerId: fuel_producer_manual
+  displayName: "\u624B\u52A8\u71C3\u6599\u751F\u4EA7\u5668"
+  isManual: 1
+  autoIntervalSeconds: 1
+  unlockPolicy: 0
+  unlockCoinCost: 0
+  unlockGemCost: 0
+  unlockSaveKey: 
+  levelTable:
+  - level: 1
+    xpPerTick: 10
+    upgradeCostToNext: 200
+  - level: 2
+    xpPerTick: 40
+    upgradeCostToNext: 700
+  - level: 3
+    xpPerTick: 200
+    upgradeCostToNext: 1600
+  - level: 4
+    xpPerTick: 600
+    upgradeCostToNext: 3000
+  - level: 5
+    xpPerTick: 1500
+    upgradeCostToNext: 5300
+  - level: 6
+    xpPerTick: 2800
+    upgradeCostToNext: 9000
+  - level: 7
+    xpPerTick: 4200
+    upgradeCostToNext: 14700
+  - level: 8
+    xpPerTick: 12000
+    upgradeCostToNext: 23600
+  - level: 9
+    xpPerTick: 35000
+    upgradeCostToNext: 37100
+  - level: 10
+    xpPerTick: 88000
+    upgradeCostToNext: 57800
+  - level: 11
+    xpPerTick: 186000
+    upgradeCostToNext: 89000
+  - level: 12
+    xpPerTick: 325000
+    upgradeCostToNext: 136000
+  - level: 13
+    xpPerTick: 482000
+    upgradeCostToNext: 206300
+  - level: 14
+    xpPerTick: 600000
+    upgradeCostToNext: 311100
+  - level: 15
+    xpPerTick: 750000
+    upgradeCostToNext: 466700
+  - level: 16
+    xpPerTick: 900000
+    upgradeCostToNext: 696900
+  - level: 17
+    xpPerTick: 1075000
+    upgradeCostToNext: 1036700
+  - level: 18
+    xpPerTick: 1250000
+    upgradeCostToNext: 1536700
+  - level: 19
+    xpPerTick: 1875000
+    upgradeCostToNext: 2270900
+  - level: 20
+    xpPerTick: 2500000
+    upgradeCostToNext: 0
+  baseXpPerTick: 10
+  productionCapLevel: 14
+  maxFuelSlots: 4
+  upgradeCoinCostPerLevel: 1000
+  xpPerLevelMultiplier: 0.25
+  icon: {fileID: 0}

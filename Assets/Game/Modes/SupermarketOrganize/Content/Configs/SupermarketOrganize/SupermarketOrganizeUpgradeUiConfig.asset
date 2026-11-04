@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff9734922016ce749aa11aa5cf2e16fd, type: 3}
+  m_Name: SupermarketOrganizeUpgradeUiConfig
+  m_EditorClassIdentifier: 
+  skillIconBackground: {fileID: 21300000, guid: 872df160031af0d45b1d8817e3cc1287, type: 3}
+  attributeIconBackground: {fileID: 21300000, guid: 23d5f9345b9822f45bcd11e0a1820bd7, type: 3}
+  entries:
+  - kind: 0
+    skillId: 0
+    attributeId: 2
+    displayNameOverride: "\u4EF7\u683C\u626B\u63CF\u5668"
+    descriptionOverride: "\u7A81\u51FA\u663E\u793A\u4E0E\u4F60\u6B63\u5728\u67E5\u770B\u7684\u7269\u54C1\u76F8\u540C\u7684\u6240\u6709\u5339\u914D\u7269\u54C1"
+    icon: {fileID: 21300000, guid: b2bde8d9732ebb145b0c575637fd923c, type: 3}
+    background: {fileID: 0}
+    displayOrder: 0
+  - kind: 0
+    skillId: 1
+    attributeId: 2
+    displayNameOverride: "\u78C1\u94C1"
+    descriptionOverride: "\u5C06\u9644\u8FD1\u7684\u677E\u6563\u5355\u4F4D\u62C9\u5165\u4F60\u7684\u8D2D\u7269\u7BEE\u4E2D"
+    icon: {fileID: 21300000, guid: c0d5ad9c359be0a48bb0ff3d890db7f0, type: 3}
+    background: {fileID: 0}
+    displayOrder: 1
+  - kind: 0
+    skillId: 2
+    attributeId: 2
+    displayNameOverride: "X\u5C04\u7EBF"
+    descriptionOverride: "\u4E3A\u4F60\u6301\u6709\u7684\u7269\u54C1\u7A81\u51FA\u6B63\u786E\u7684\u8D27\u67B6"
+    icon: {fileID: 21300000, guid: 1e2703d49ede8614bbff9a652538c96a, type: 3}
+    background: {fileID: 0}
+    displayOrder: 2
+  - kind: 0
+    skillId: 3
+    attributeId: 2
+    displayNameOverride: "\u81EA\u52A8\u5B58\u8D27\u5458"
+    descriptionOverride: "\u7ACB\u5373\u5C06\u5339\u914D\u7684\u6301\u6709\u7269\u54C1\u653E\u5165\u8D27\u67B6\u4E2D"
+    icon: {fileID: 21300000, guid: dda9aa24e3e89804f9736f8dd9e5b134, type: 3}
+    background: {fileID: 0}
+    displayOrder: 3
+  - kind: 1
+    skillId: 0
+    attributeId: 2
+    displayNameOverride: "\u8D2D\u7269\u7BEE\u5BB9\u91CF"
+    descriptionOverride: "\u643A\u5E26\u66F4\u591A\u7269\u54C1"
+    icon: {fileID: 21300000, guid: 0c6d00eb1db1c3142a4d1bde7d4eaddb, type: 3}
+    background: {fileID: 0}
+    displayOrder: 10
+  - kind: 1
+    skillId: 0
+    attributeId: 1
+    displayNameOverride: "\u79FB\u52A8\u901F\u5EA6"
+    descriptionOverride: "\u5728\u8D27\u67B6\u4E4B\u95F4\u8D70\u7684\u66F4\u5FEB"
+    icon: {fileID: 21300000, guid: 2943bca481e8f5e45aeed821d024dcb5, type: 3}
+    background: {fileID: 0}
+    displayOrder: 11
+  - kind: 1
+    skillId: 0
+    attributeId: 0
+    displayNameOverride: "\u62FE\u53D6\u8303\u56F4"
+    descriptionOverride: "\u4ECE\u66F4\u8FDC\u5904\u6293\u53D6\u5E76\u653E\u7F6E"
+    icon: {fileID: 21300000, guid: 16cc82c23125d444083fbadc697cf8a6, type: 3}
+    background: {fileID: 0}
+    displayOrder: 12

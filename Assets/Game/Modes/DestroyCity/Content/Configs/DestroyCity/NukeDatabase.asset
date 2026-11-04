@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaa4db1d4aeb0c5468ad3331ebdac2ef, type: 3}
+  m_Name: NukeDatabase
+  m_EditorClassIdentifier: 
+  nukes:
+  - {fileID: 11400000, guid: 2447397911bd4bb41b33176562eb568c, type: 2}
+  - {fileID: 11400000, guid: b4ff3b6522df7c14d843622f6314e507, type: 2}
+  - {fileID: 11400000, guid: b2a6bf9ee5cb7694e9ccdff35cc56495, type: 2}
+  - {fileID: 11400000, guid: c452ea3c818008448aac853513925892, type: 2}
+  - {fileID: 11400000, guid: e3d2b54b9cd5b824e916de6f143ff3f3, type: 2}
+  - {fileID: 11400000, guid: d09c6263e5876384084bcecad1e798ae, type: 2}
+  - {fileID: 11400000, guid: 78f896e617df58746b4251d0dc789442, type: 2}
+  - {fileID: 11400000, guid: 60f8c7071fb8e2b4d9c4863d2ea2b95d, type: 2}
+  - {fileID: 11400000, guid: 2d3799b2b86062347a6f389494a26ae7, type: 2}
+  - {fileID: 11400000, guid: 4e1dfcb1aec3d5d4f8bde63893dd8b81, type: 2}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 298b551a3bcf9434b9119ec359f0cec5, type: 3}
+  m_Name: Nuke_Lv3
+  m_EditorClassIdentifier: 
+  nukeId: nuke_3
+  displayName: "\u865A\u7A7A\u6838\u5F39"
+  level: 3
+  upgradeXpRequired: 1000
+  explosionRadius: 52
+  coinRewardMultiplier: 1
+  launcherPrefab: {fileID: 7874970233405030747, guid: 133df2d63af620e40bd5f4f27f37f8ac, type: 3}
+  explosionVfxPrefab: {fileID: 8964170424896913286, guid: 9b29396b62643aa488d7a49916ba2c66, type: 3}
+  icon: {fileID: 0}

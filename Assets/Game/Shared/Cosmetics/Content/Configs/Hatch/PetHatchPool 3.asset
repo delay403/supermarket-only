@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61457809d589466439c08a6c42322b48, type: 3}
+  m_Name: PetHatchPool 3
+  m_EditorClassIdentifier: 
+  poolId: hatch4
+  displayName: "\u8D85\u7EA7\u5BA0\u7269\u86CB"
+  currency: 0
+  singleDrawCost: 800
+  fiveDrawCost: 8000
+  currencyIcon: {fileID: 21300000, guid: df80ad7c926ac7d44871e106f28904c9, type: 3}
+  eggIcon: {fileID: 21300000, guid: e37707af7bf7b524489c6b5221a24f78, type: 3}
+  entries:
+  - pet: {fileID: 11400000, guid: e0b5b656a8c129744bf858b94f52e8b9, type: 2}
+    weight: 400
+  - pet: {fileID: 11400000, guid: 0a358636b721847429337d97cbb34322, type: 2}
+    weight: 300
+  - pet: {fileID: 11400000, guid: feb01d477fec1ef4396008e96bb61788, type: 2}
+    weight: 250
+  - pet: {fileID: 11400000, guid: db34cc6d0165ca84c8c9388fcacaa263, type: 2}
+    weight: 200

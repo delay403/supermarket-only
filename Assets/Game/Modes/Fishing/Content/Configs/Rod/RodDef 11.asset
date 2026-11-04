@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96bf88df73bf2cf44bb31a9be9b829f3, type: 3}
+  m_Name: RodDef 11
+  m_EditorClassIdentifier: 
+  rodId: rod_12
+  displayName: "\u9AB7\u9AC5\u4E4B\u722A"
+  level: 12
+  quality: 4
+  priceCoins: 38888
+  requiredUnlockedLevel: 11
+  prefab: {fileID: 6714279598247791621, guid: ff2f77df4ee91cd4a8b4c1103ee4f58d, type: 3}
+  shopIcon: {fileID: 21300000, guid: 4ba4efe770facf24eab3bcf5d7b86cb0, type: 3}
+  modifiers:
+    climbSpeedAdd: 0
+    climbSpeedMul: 0
+    coinsMul: 0
+    coinsAdd: 0
+    fishingPowerAdd: 0
+    fishingPowerMul: 0
+    fishingProgressAdd: 0
+    fishingCoinMul: 0
+    fishingTrainSpeedMul: 0.15
+    fishingSpecialCatchBonus: 0

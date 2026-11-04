@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b52e98dca5e37bb40b30ec50443d9ff0, type: 3}
+  m_Name: SupermarketOrganizeProgressionConfig
+  m_EditorClassIdentifier: 
+  handleCapacityByLevel: 0400000006000000080000000a0000000c0000000e00000010000000
+  handleCapacityUpgradeCosts: 3c0000005a00000087000000cb00000030010000c8010000
+  moveSpeedBonusByLevel:
+  - 0
+  - 0.1
+  - 0.2
+  - 0.3
+  - 0.4
+  - 0.5
+  moveSpeedUpgradeCosts: 320000004900000098000000c2000000f5000000
+  pickupRangeByLevel:
+  - 12
+  - 15
+  - 18
+  - 21
+  - 24
+  pickupRangeUpgradeCosts: 370000005000000074000000aa000000
+  scannerCooldownByLevel:
+  - 14
+  - 12
+  - 10
+  - 8
+  - 6
+  scannerUpgradeCosts: 5a00000087000000cb00000030010000
+  scannerHighlightDurationSeconds: 8
+  magnetCooldownByLevel:
+  - 17.5
+  - 15
+  - 12.5
+  - 10
+  - 7.5
+  - 5
+  magnetUpgradeCosts: 78000000b40000000e0100009501000060020000
+  magnetPullRadius: 10
+  xRayCooldownByLevel:
+  - 16
+  - 13
+  - 10
+  - 7
+  xRayUpgradeCosts: 5000000074000000a8000000
+  xRayTipDurationSeconds: 6
+  autoStockerCooldownByLevel:
+  - 60
+  - 55
+  - 50
+  - 45
+  - 40
+  - 35
+  autoStockerUpgradeCosts: 96000000e100000052010000fa010000f7020000
+  sweepRobotUnlockDurationSeconds: 300
+  sweepRobotIntervalSeconds: 15

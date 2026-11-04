@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c4b692aaf1aabe4e914c9d3ab04bd7f, type: 3}
+  m_Name: SupermarketItemDef_4-n
+  m_EditorClassIdentifier: 
+  itemId: 4-n
+  displayName: "\u5364\u9999\u818F"
+  worldPrefab: {fileID: 6422134514592010082, guid: 3f2af070d3a01664ea7922cf4dc81433, type: 3}
+  minSpawnCount: 1
+  maxSpawnCount: 16
+  disableShadows: 1

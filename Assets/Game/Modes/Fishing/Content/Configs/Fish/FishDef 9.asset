@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cb8dd35e8d17f1429212189195af801, type: 3}
+  m_Name: FishDef 9
+  m_EditorClassIdentifier: 
+  fishId: fish_10
+  displayName: "\u7EA2\u661F\u9B9F\u9C47"
+  quality: 1
+  rewardCoins: 30
+  icon: {fileID: 21300000, guid: 9a9c93418e488d64c8401eedbe8bc044, type: 3}
+  worldCatchPrefab: {fileID: 3282066041236426744, guid: 428b1866c33e20b4eb4dbdc98cb7be21, type: 3}

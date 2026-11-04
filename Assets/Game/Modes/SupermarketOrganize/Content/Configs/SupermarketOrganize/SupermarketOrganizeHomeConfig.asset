@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ca7f093170cdbb4986d33b23c93f2c8, type: 3}
+  m_Name: SupermarketOrganizeHomeConfig
+  m_EditorClassIdentifier: 
+  staminaEnabled: 0
+  maxStamina: 5
+  staminaRegenIntervalMinutes: 30
+  staminaReward: 5
+  staminaTextFormat: '{0}'
+  difficulties:
+  - id: "\u6742\u8D27\u5E97"
+    previewImage: {fileID: 21300000, guid: d8c112b8c7f38994e9cd2699ad5e5b66, type: 3}
+    staminaCost: 1
+    startButtonLabel: "\u5F00\u59CB\u6311\u6218"
+    shelfCountFormat: "\u8D27\u67B6\uFF1A{0}\u4E2A"
+    itemCountFormat: "\u5546\u54C1\uFF1A{0}\u4E2A"
+    entryAnimationSeconds: 2
+    displayOrder: 0
+  - id: "\u8D85\u7EA7\u5E02\u573A"
+    previewImage: {fileID: 21300000, guid: ee50ad3a90ca2dc4aa670237894b232a, type: 3}
+    staminaCost: 1
+    startButtonLabel: "\u5F00\u59CB\u6311\u6218"
+    shelfCountFormat: "\u8D27\u67B6\uFF1A{0}\u4E2A"
+    itemCountFormat: "\u5546\u54C1\uFF1A{0}\u4E2A"
+    entryAnimationSeconds: 2.5
+    displayOrder: 1

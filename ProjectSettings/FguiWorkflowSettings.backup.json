@@ -1,0 +1,20 @@
+﻿{
+    "fairyGuiEditorExePath": "D:/FairyGUI-Editor/FairyGUI-Editor.exe",
+    "fairyGuiProjectPath": "E:/FGUI-PataAndFish/FGUIProject.fairy",
+    "publishMainFolder": "E:/FGUI-PataAndFish/./Unity/bin/res/fgui",
+    "publishSrcFolder": "E:/FGUI-PataAndFish/./Unity/src/ui",
+    "publishSubpkgFolder": "E:/FGUI-PataAndFish/./Unity/bin/subpack2/fgui",
+    "unityTargetRootFolder": "Assets/FGUIforUnity/Resources/FGUIPublish",
+    "clearTargetBeforeCopy": false,
+    "packageAssetPaths": [
+        "Assets/FGUIforUnity/Resources/FGUIPublish/fgui/Game",
+        "Assets/FGUIforUnity/Resources/FGUIPublish/fgui/Home",
+        "Assets/FGUIforUnity/Resources/FGUIPublish/fgui/Loading",
+        "Assets/FGUIforUnity/Resources/FGUIPublish/fgui/NativeAd",
+        "Assets/FGUIforUnity/Resources/FGUIPublish/fgui/Setting",
+        "Assets/FGUIforUnity/Resources/FGUIPublish/fgui/VideoBox"
+    ],
+    "defaultPackageAssetPath": "Assets/FGUIforUnity/Resources/FGUIPublish/fgui/Game",
+    "defaultComponentName": "AdForMoney",
+    "defaultPackageName": ""
+}

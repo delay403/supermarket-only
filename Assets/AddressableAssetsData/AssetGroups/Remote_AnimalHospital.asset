@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Remote_AnimalHospital
+  m_EditorClassIdentifier: 
+  m_GroupName: Remote_AnimalHospital
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 7da566e3bddf7df489d46cd9b377f412
+  m_SerializeEntries:
+  - m_GUID: 4f232bd2d3059c1468c8b9687f1fb1e8
+    m_Address: Assets/Game/Modes/AnimalHospital
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AnimalHospital
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 67a80192761e53f499937738771996cd, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 2512fe96b7864bb4d9e3fe808ffb5497, type: 2}
+    - {fileID: 11400000, guid: 5309b42469fdfb946946e91b2eb0e56e, type: 2}

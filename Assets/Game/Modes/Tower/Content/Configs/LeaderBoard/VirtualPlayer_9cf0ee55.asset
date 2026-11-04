@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a1702af4e710214ba8345a554a844e4, type: 3}
+  m_Name: VirtualPlayer_9cf0ee55
+  m_EditorClassIdentifier: 
+  virtualId: 9cf0ee5552cf4362a232768d3a865fd1
+  displayName: GnXuF
+  portrait: {fileID: 21300000, guid: 2bad1bf7f4a59604fb4db06e42eec481, type: 3}
+  coins: 662074
+  glideDistanceMeters: 12161.45

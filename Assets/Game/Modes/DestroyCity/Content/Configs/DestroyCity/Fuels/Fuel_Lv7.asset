@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bc423a391a596f46be936c0a3bad2df, type: 3}
+  m_Name: Fuel_Lv7
+  m_EditorClassIdentifier: 
+  fuelId: fuel_7
+  displayName: "\u71C3\u6599 Lv7"
+  level: 7
+  xpToNextLevel: 21000
+  worldPrefab: {fileID: 8054185976051727677, guid: 11d05340317990140b3f31010684ac52, type: 3}
+  icon: {fileID: 0}

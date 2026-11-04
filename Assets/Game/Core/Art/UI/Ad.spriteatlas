@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ad
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: WebGL
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 52
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 534e0dec2e0bd8f45bec0090568e19a5, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: e4963c0004346c14ebcd5845c695e915, type: 3}
+  - {fileID: 21300000, guid: 47ab34411e5ccbe43960c1a04cd4eb23, type: 3}
+  - {fileID: 21300000, guid: a4b30b610ca76c64abf1fc4dc10add40, type: 3}
+  - {fileID: 21300000, guid: 58dfed921161fd24fb03163d4bfb5a25, type: 3}
+  - {fileID: 21300000, guid: f0478b03de9ecf441b9c0a8087b7fd1f, type: 3}
+  - {fileID: 21300000, guid: 6113da13ce2bb1c4195214e785064e35, type: 3}
+  - {fileID: 21300000, guid: eb3b8123eba067f43b8c4f43e4a09211, type: 3}
+  - {fileID: 21300000, guid: fc12f8d383569ff4a82fc8fc0c35ccbf, type: 3}
+  - {fileID: 21300000, guid: 282cf0e47057dc542a0205ebbe0817d5, type: 3}
+  - {fileID: 21300000, guid: 172a5ee5f11a54840b628edfa8abd226, type: 3}
+  - {fileID: 21300000, guid: 9f100a468ad059d41bc0d1b3bd5c5b94, type: 3}
+  - {fileID: 21300000, guid: f4b1b0567494aab4d9de55c9af5a34e5, type: 3}
+  - {fileID: 21300000, guid: 9c2bb9078529de84cbf83199888aff55, type: 3}
+  - {fileID: 21300000, guid: 83e29019547e3104aa43b7fb56a32abc, type: 3}
+  - {fileID: 21300000, guid: 1f454c89580dacf4a97f374d95b2fa35, type: 3}
+  - {fileID: 21300000, guid: 4efaef3adc7db5d459c002ab8cf56169, type: 3}
+  - {fileID: 21300000, guid: 1426c18a8b15d1048a79f9a4188107ab, type: 3}
+  - {fileID: 21300000, guid: d39775aa65572f8498685e8f01f55449, type: 3}
+  - {fileID: 21300000, guid: f30cacaa5fd3739408e43c49856d469f, type: 3}
+  - {fileID: 21300000, guid: 1159b6ea5ce7aa34b98a8beab054d32e, type: 3}
+  - {fileID: 21300000, guid: 6fa53b0b665c0eb41940942522378454, type: 3}
+  - {fileID: 21300000, guid: e9b9013b85b75da41ba8ef3d3bad23a9, type: 3}
+  - {fileID: 21300000, guid: 4434383b837ced94fa89131cfd9092a7, type: 3}
+  - {fileID: 21300000, guid: 8d31c00c7daae684296fcc9c9b01cd7e, type: 3}
+  - {fileID: 21300000, guid: c551ba6cdbe91a947b5c00e199f2c23c, type: 3}
+  - {fileID: 21300000, guid: 595a8d3d1b1cdfc42a0073f0e9b5cad3, type: 3}
+  - {fileID: 21300000, guid: ab8b575d8086e384081d0a978f3fad57, type: 3}
+  - {fileID: 21300000, guid: 1f7e2ebdd3e8e7d4ea37381198eee687, type: 3}
+  - {fileID: 21300000, guid: cb96be9e2853d59439947b31d9f482bd, type: 3}
+  - {fileID: 21300000, guid: 743221bef2249394d8cd92ae2ba418c8, type: 3}
+  - {fileID: 21300000, guid: 7e25eece29e9c734ca96548331abd716, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - jinbi1
+  - zhuanpanzhizhen
+  - qiandaokuang2
+  - shangdiankuang3
+  - qiandaolingqu
+  - 3jinbi
+  - jinbi4
+  - qiandaozhezhao
+  - sudu
+  - qiandaotixing
+  - zhuanpan3
+  - qiandaohengfu
+  - jinbi2
+  - jiasupanpa
+  - qiandaoxing
+  - zhanpanhengfu
+  - zs3
+  - zhuanpan2
+  - jinbi6
+  - shangdiankuang2
+  - mianfeizuanshi
+  - jinbi5
+  - shangdiankuang1
+  - mianfeijinbi
+  - ClaimIcon
+  - jinbi3
+  - qiandaokuang1
+  - 3zuanshi
+  - qiandaoxuanzhong
+  - qiandaoguangxiao
+  - zhuanpan1
+  m_RenderDataMap: {}
+  m_Tag: Ad
+  m_IsVariant: 0
+  m_IsPlaceholder: 0

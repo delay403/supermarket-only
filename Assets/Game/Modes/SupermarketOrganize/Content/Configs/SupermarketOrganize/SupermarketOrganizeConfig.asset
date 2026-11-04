@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eced6c3af22c554b81a5ee9ca1f5e8b, type: 3}
+  m_Name: SupermarketOrganizeConfig
+  m_EditorClassIdentifier: 
+  defaultHandleCapacity: 16
+  maxHandleCapacity: 32
+  handleSlotLocalX: 0.9
+  handleSlotGap: 0.1
+  handleZoneLocalOffset: {x: 1, y: -0.75, z: 2}
+  raycastMaxDistance: 8
+  itemRaycastMask:
+    serializedVersion: 2
+    m_Bits: 65536
+  shelfRaycastMask:
+    serializedVersion: 2
+    m_Bits: 131072
+  tapMoveThresholdPixels: 22
+  aimHighlightColor: {r: 0.20572266, g: 0.488498, b: 0.6509434, a: 0.6039216}
+  sameIdHighlightColor: {r: 1, g: 0.92039454, b: 0.34901965, a: 0.70980394}
+  sameIdOutlineColor: {r: 1, g: 0.5095689, b: 0.25943398, a: 1}
+  sameIdOutlineWidth: 10
+  heldItemOutlineColor: {r: 0.25, g: 0.95, b: 0.45, a: 1}
+  heldItemOutlineWidth: 8
+  coinsPerPlacedItem: 3
+  coinsPerCompletedShelf: 30
+  shelfPlacePreviewColor: {r: 0.14353323, g: 0.9150943, b: 0.07338022, a: 0.5686275}
+  correctShelfTextColor: {r: 0.25, g: 0.95, b: 0.35, a: 1}
+  wrongShelfTextColor: {r: 1, g: 0.28, b: 0.28, a: 1}
+  correctShelfMessage: "\u6B63\u786E\u7684\u8D27\u67B6"
+  wrongShelfMessage: "\u9519\u8BEF\u7684\u8D27\u67B6"
+  correctShelfHintFormat: "\u6B63\u786E\u8D27\u67B6 \xB7 \u53EF\u653E\u7F6E {0}"
+  wrongShelfHintText: "\u9519\u8BEF\u7684\u8D27\u67B6"
+  itemMoveSpeed: 120
+  pickUpMoveMaxSeconds: 0.3
+  pickUpArcHeight: 0.45
+  eyeHeight: 1.9
+  yawSpeed: 540
+  pitchSpeed: 360
+  pitchMin: -25
+  pitchMax: 65
+  hidePlayerMeshInFirstPerson: 1
+  scatterAreaHalfExtents: {x: 6, y: 6}
+  scatterHeight: 0.35
+  scatterSeed: 20260707
+  enableDropSpawn: 1
+  dropHeightMin: 1
+  dropHeightMax: 1.5
+  dropHorizontalImpulse: 3
+  dropGravityScale: 1.5
+  dropInitialDownwardSpeed: 3
+  dropSpawnRotationRange: {x: 90, y: 360, z: 90}
+  dropAngularImpulse: 3
+  spawnGroundMask:
+    serializedVersion: 2
+    m_Bits: 2048
+  spawnGroundRaycastHeight: 30
+  spawnGroundRaycastDistance: 40
+  useFixedSpawnFloorY: 0
+  spawnFloorWorldY: 0
+  physicsSettleSpeedThreshold: 0.12
+  physicsSettleAngularSpeedThreshold: 0.35
+  physicsSettleHoldSeconds: 0.12
+  physicsMaxDropDurationSeconds: 4
+  physicsLinearDrag: 1.2
+  physicsAngularDrag: 1
+  physicsSlowDampingBoost: 10
+  physicsSlowAngularDampingBoost: 4
+  enableGroundItemOcclusionCull: 1
+  occlusionCullMaxDistance: 60
+  occlusionCullUpdateInterval: 0.04
+  occlusionCullItemsPerTick: 384
+  occlusionCullLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  occlusionCullRaySamples: 5
+  occlusionCullMinVisibleSampleRatio: 0.1
+  occlusionCullHideConfirmFrames: 3
+  occlusionCullRaySkin: 0.01
+  renderOptimizationNotes: "WebGL/Android \u4F18\u5316\u5EFA\u8BAE\uFF1A\n1) \u540C\u7C7B\u7269\u54C1\u5171\u7528\u6750\u8D28\u4E0E
+    Mesh\uFF0C\u5F00\u542F GPU Instancing\uFF08\u6750\u8D28 Inspector\uFF09\u3002\n2)
+    \u5C0F\u7269\u4F53\u5173\u95ED Cast Shadows\uFF0C\u4EC5\u4E3B\u89D2\u8272/\u8D27\u67B6\u6295\u5C04\u9634\u5F71\u3002\n3)
+    \u63CF\u8FB9\u4EC5\u5BF9\u5F53\u524D\u9009\u4E2D ID \u542F\u7528 QuickOutline\uFF0C\u907F\u514D
+    800+ \u7269\u4F53\u5E38\u9A7B\u63CF\u8FB9\u3002\n4) \u9759\u6001\u5730\u9762/\u8D27\u67B6\u6807\u8BB0
+    Static \u4EE5\u53C2\u4E0E Static Batching\u3002\n5) \u4F7F\u7528 URP SRP Batcher
+    \u53CB\u597D Shader\uFF1B\u51CF\u5C11\u6BCF\u7269\u4F53\u6750\u8D28\u53D8\u4F53\u3002\n6)
+    \u8FDC\u666F\u53EF\u7ED9\u7269\u54C1\u9884\u5236\u4F53\u52A0 LOD Group\uFF1B\u5BC6\u96C6\u5806\u53E0\u533A\u53EF\u7528\u5408\u5E76\u7F51\u683C\u5DE5\u5177\u3002"

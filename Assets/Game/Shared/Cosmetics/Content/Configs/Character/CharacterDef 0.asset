@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c04dd7e899d95c243b9e7fbb11653699, type: 3}
+  m_Name: CharacterDef 0
+  m_EditorClassIdentifier: 
+  characterId: char_1
+  displayName: 
+  level: 1
+  quality: 1
+  catalogStars: 1
+  growthStarsCap: 3
+  requiredUnlockedLevel: 0
+  priceCurrency: 0
+  priceAmount: 0
+  prefab: {fileID: 4467860387452198195, guid: 824bfe7fe78582e44a0c3f23fa47c325, type: 3}
+  portraitIcon: {fileID: 21300000, guid: 15695889c863bad439c2a92dcfa6ea9a, type: 3}
+  climbTowerProgressAvatar: {fileID: 21300000, guid: fdc557e60311a554d85b644b4506f30d, type: 3}
+  modifiers:
+    climbSpeedAdd: 0
+    climbSpeedMul: 0
+    coinsMul: 0
+    coinsAdd: 0
+    fishingPowerAdd: 0
+    fishingPowerMul: 0
+    fishingProgressAdd: 0
+    fishingCoinMul: 0
+    fishingTrainSpeedMul: 0
+    fishingSpecialCatchBonus: 0
+    wormDodgeMoveSpeedAdd: 0
+    wormDodgeMoveSpeedMul: 0
+    wormDodgeCoinMul: 0

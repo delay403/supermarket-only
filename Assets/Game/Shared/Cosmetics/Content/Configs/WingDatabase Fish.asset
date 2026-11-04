@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b76e00120ecb64e44a5acd7e0b310ee2, type: 3}
+  m_Name: WingDatabase Fish
+  m_EditorClassIdentifier: 
+  wings:
+  - {fileID: 11400000, guid: 58cfbbb7f396acf44aee97c7f9f02ce9, type: 2}
+  - {fileID: 11400000, guid: 637dc34a764bf7341aabc6e1f9666f91, type: 2}
+  - {fileID: 11400000, guid: bbb31ddec35d9364884a35be89ac5774, type: 2}
+  - {fileID: 11400000, guid: 7dc3e33a93c07f14fb7e4998aa69829d, type: 2}
+  - {fileID: 11400000, guid: 97b3a792506083f4885a0edb457c353d, type: 2}
+  - {fileID: 11400000, guid: 99a6c68bb662e65488d0cc1d22501967, type: 2}
+  - {fileID: 11400000, guid: 6daeadaade930714fb3c685959c26220, type: 2}
+  - {fileID: 11400000, guid: f4e74115778aca44abfafecde10d34c4, type: 2}
+  - {fileID: 11400000, guid: 1d1da438536c28d4d8cb3ee04eba8516, type: 2}
+  - {fileID: 11400000, guid: f51df322cdc7d0a4d868fd2c90da4975, type: 2}
+  - {fileID: 11400000, guid: 0c07b036e196f91479a6082194b9b382, type: 2}
+  - {fileID: 11400000, guid: ca7e7e6f9374f7d468ffacdf8955e267, type: 2}

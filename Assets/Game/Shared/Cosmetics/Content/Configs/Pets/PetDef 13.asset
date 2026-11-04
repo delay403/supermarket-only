@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a99f27637493c45983f0422dd3d919, type: 3}
+  m_Name: PetDef 13
+  m_EditorClassIdentifier: 
+  petId: pet_14
+  displayName: "\u54C8\u6C14\u9F20"
+  quality: 4
+  level: 14
+  hatchCostCoins: 100
+  hatchWeight: 1
+  fusionSuccessChance01: 0.5
+  fusionTargetPetId: 
+  prefab: {fileID: 5770096569954466483, guid: 80d2ee749466e2d42947a584e397f86b, type: 3}
+  inventoryIcon: {fileID: 21300000, guid: 22ae59b03533ddb41a426c78e96a55c2, type: 3}
+  modifiers:
+    climbSpeedAdd: 0
+    climbSpeedMul: 0
+    coinsMul: 0
+    coinsAdd: 0
+    fishingPowerAdd: 0
+    fishingPowerMul: 0.15
+    fishingProgressAdd: 0
+    fishingCoinMul: 0
+    fishingTrainSpeedMul: 0
+    fishingSpecialCatchBonus: 0
+    wormDodgeMoveSpeedAdd: 0
+    wormDodgeMoveSpeedMul: 0.23
+    wormDodgeCoinMul: 0
+  fishingSellPriceCoins: 80

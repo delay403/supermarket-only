@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e21a42c765775c54580cbba18f637ca2, type: 3}
+  m_Name: DestroyCity_Map1
+  m_EditorClassIdentifier: 
+  mapId: destroy_city_map_1
+  displayName: "\u57CE\u5E02 Alpha"
+  mapLevel: 1
+  gameplaySceneName: DestroyCityScene
+  cityScaleMeters: 200
+  baseCoinReward: 1000
+  unlockCoinCost: 0
+  mapIcon: {fileID: 0}

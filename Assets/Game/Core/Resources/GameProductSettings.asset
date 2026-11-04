@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aecab988e4f80b459c741f2aba4c453, type: 3}
+  m_Name: GameProductSettings
+  m_EditorClassIdentifier: 
+  modes:
+  - enabled: 1
+    modeId: SupermarketOrganize
+    displayName: "\u8D85\u5E02\u6536\u7EB3"
+    mainModeSprite: {fileID: 21300000, guid: faee0f26e99b22b45b019851d07b4f09, type: 3}
+    previewSprite: {fileID: 21300000, guid: 09e2e049e4f225642b0267d3d91a1fa6, type: 3}
+    previewPrefab: {fileID: 0}
+    transitionLoadingSprite: {fileID: 0}
+    gameplayKind: 6
+    hudVisibility:
+      petHatch: 0
+      petBackpack: 0
+      signIn: 0
+      character: 0
+      luckyWheel: 0
+      onlineReward: 0
+      trail: 0
+      wing: 0
+      rodShop: 0
+      fishCodex: 0
+    equipmentBonuses:
+      pet: 0
+      wing: 0
+      trail: 0
+      character: 0
+      rod: 0
+      statMultiplier: 0
+    customSceneName: SupermarketOrganizeScene
+  - enabled: 0
+    modeId: AnimalHospital
+    displayName: "\u52A8\u7269\u533B\u9662"
+    mainModeSprite: {fileID: 21300000, guid: a05c1d85a93426f41aacaf4ca7b503aa, type: 3}
+    previewSprite: {fileID: 21300000, guid: 4d42284ad26d1924caeb0643f5eac8a3, type: 3}
+    previewPrefab: {fileID: 0}
+    transitionLoadingSprite: {fileID: 0}
+    gameplayKind: 7
+    hudVisibility:
+      petHatch: 0
+      petBackpack: 0
+      signIn: 0
+      character: 0
+      luckyWheel: 0
+      onlineReward: 0
+      trail: 0
+      wing: 0
+      rodShop: 0
+      fishCodex: 0
+    equipmentBonuses:
+      pet: 0
+      wing: 0
+      trail: 0
+      character: 0
+      rod: 0
+      statMultiplier: 1
+    customSceneName: AnimalHospitalScene
+  - enabled: 0
+    modeId: EscapeWorm
+    displayName: "\u8EB2\u907F\u866B\u5B50"
+    mainModeSprite: {fileID: 21300000, guid: 10177abf372fcdf408381e0809c6adcd, type: 3}
+    previewSprite: {fileID: 21300000, guid: 74e713b788d00c4449e1cb4132a25c84, type: 3}
+    previewPrefab: {fileID: 0}
+    transitionLoadingSprite: {fileID: 0}
+    gameplayKind: 1
+    hudVisibility:
+      petHatch: 1
+      petBackpack: 1
+      signIn: 1
+      character: 1
+      luckyWheel: 1
+      onlineReward: 1
+      trail: 1
+      wing: 1
+      rodShop: 0
+      fishCodex: 0
+    equipmentBonuses:
+      pet: 1
+      wing: 1
+      trail: 1
+      character: 1
+      rod: 0
+      statMultiplier: 1
+    customSceneName: EscapeWormScene
+  - enabled: 0
+    modeId: DestroyCity
+    displayName: "\u6467\u6BC1\u57CE\u5E02"
+    mainModeSprite: {fileID: 21300000, guid: d436abe364befca489170b943f543d86, type: 3}
+    previewSprite: {fileID: 21300000, guid: c5233ac7c78673f48ac7bad9a1e66b10, type: 3}
+    previewPrefab: {fileID: 0}
+    transitionLoadingSprite: {fileID: 0}
+    gameplayKind: 2
+    hudVisibility:
+      petHatch: 1
+      petBackpack: 1
+      signIn: 1
+      character: 1
+      luckyWheel: 1
+      onlineReward: 1
+      trail: 1
+      wing: 1
+      rodShop: 0
+      fishCodex: 0
+    equipmentBonuses:
+      pet: 1
+      wing: 1
+      trail: 1
+      character: 1
+      rod: 0
+      statMultiplier: 1
+    customSceneName: DestroyCityScene
+  - enabled: 0
+    modeId: Fish
+    displayName: "\u9493\u9C7C\u8FBE\u4EBA"
+    mainModeSprite: {fileID: 21300000, guid: f9d449179faf42d40bc5e8c083e27ae4, type: 3}
+    previewSprite: {fileID: 21300000, guid: 5eb139756cf978544a884ee7482c38fe, type: 3}
+    previewPrefab: {fileID: 0}
+    transitionLoadingSprite: {fileID: 0}
+    gameplayKind: 3
+    hudVisibility:
+      petHatch: 1
+      petBackpack: 1
+      signIn: 1
+      character: 1
+      luckyWheel: 1
+      onlineReward: 1
+      trail: 1
+      wing: 1
+      rodShop: 1
+      fishCodex: 1
+    equipmentBonuses:
+      pet: 1
+      wing: 1
+      trail: 1
+      character: 1
+      rod: 1
+      statMultiplier: 1
+    customSceneName: FishScene
+  productMode: 4
+  useGameplayModuleFlags: 0
+  enabledModules: 14
+  autoSyncBuildScenes: 1
+  includeSharedCosmeticsResources: 0
+  includeSharedActivityResources: 0
+  includeSharedEconomyResources: 0
