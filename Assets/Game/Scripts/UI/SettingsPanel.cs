@@ -1,7 +1,6 @@
 using System;
 using DG.Tweening;
 using Game.Audio;
-using Game.Maps;
 using Game.Platform;
 using Game.Save;
 using Game.UI.Controls;
@@ -47,9 +46,9 @@ namespace Game.UI
         [Header("Footer")]
         public Button continueGameButton;
         public Button returnHomeButton;
-        [Tooltip("可选：Continue / ReturnHome 的父节点；隐藏主页键后会 ForceRebuildLayout，避免单按钮仍偏在一侧。")]
+        [Tooltip("可选：Continue / ReturnHome 的父节点；刷新按钮可见性后会 ForceRebuildLayout。")]
         public RectTransform footerButtonsLayoutRoot;
-        [Tooltip("可选：在发起回主页跳转前触发（例如存档、埋点）。默认实际加载由 GameSceneLoader.NavigateToMainHome 执行；若已注册 returnHomeOverride 则由其接管。")]
+        [Tooltip("可选：返回场景内主页前触发（例如存档、埋点）。若已注册 returnHomeOverride 则由其接管。")]
         public UnityEvent onReturnToHome;
 
         /// <summary>
@@ -354,11 +353,13 @@ namespace Game.UI
                 return;
             }
 
-            GameSceneLoader.NavigateToMainHome();
+            var director = Game.SupermarketOrganize.SupermarketOrganizeDirector.Instance
+                           ?? UnityEngine.Object.FindObjectOfType<Game.SupermarketOrganize.SupermarketOrganizeDirector>();
+            director?.ShowHome();
         }
 
         /// <summary>
-        /// 注册/清除「返回主页」的在模式内替代实现；handler 为 null 时恢复默认的 NavigateToMainHome。
+        /// 注册/清除「返回主页」的在模式内替代实现；handler 为 null 时直接调用超市导演的 ShowHome。
         /// </summary>
         public void SetReturnHomeOverride(Action handler)
         {
@@ -371,13 +372,10 @@ namespace Game.UI
 
         void ApplyReturnHomeButtonVisibility()
         {
-            var cfg = SceneNavigationSettings.ResolveActive();
-            var useHome = returnHomeOverride != null || cfg == null || cfg.useMainHomeScene;
-
             if (returnHomeButton != null)
-                returnHomeButton.gameObject.SetActive(useHome);
+                returnHomeButton.gameObject.SetActive(true);
 
-            RectTransform layoutRoot = footerButtonsLayoutRoot;
+            var layoutRoot = footerButtonsLayoutRoot;
             if (layoutRoot == null && continueGameButton != null)
                 layoutRoot = continueGameButton.transform.parent as RectTransform;
 

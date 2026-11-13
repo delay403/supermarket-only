@@ -1,7 +1,6 @@
 using Game.Reward;
 using Game.Audio;
 using Game.Core;
-using Game.Maps;
 using Game.UI;
 using Game.UI.Framework;
 using UnityEngine;
@@ -11,7 +10,7 @@ namespace Game.SupermarketOrganize
 {
     /// <summary>
     /// 超市收纳模式专用：绑定设置面板里的「重新生成地面物品」按钮；
-    /// 单玩法包体（无 MainHome）下把设置面板的「返回主页」接管为就地回到模式内主页。
+    /// 把设置面板的「返回主页」接管为就地回到模式内主页。
     /// </summary>
     [DisallowMultipleComponent]
     public sealed class SupermarketOrganizeSettingsFeatureBridge : MonoBehaviour
@@ -82,11 +81,6 @@ namespace Game.SupermarketOrganize
 
             var panel = ResolveSettingsPanel();
             if (panel == null)
-                return;
-
-            // 有 MainHome 的融合包体保持默认跳转；单玩法包体（MainHome 未启用）才接管为回模式内主页。
-            var cfg = SceneNavigationSettings.ResolveActive();
-            if (cfg != null && cfg.useMainHomeScene)
                 return;
 
             panel.SetReturnHomeOverride(OnSettingsReturnHome);
