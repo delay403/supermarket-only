@@ -35468,20 +35468,20 @@ MonoBehaviour:
   rodDatabase: {fileID: 0}
   strengthTrainingGrounds: {fileID: 0}
   mapDatabase: {fileID: 0}
-  signInDatabase: {fileID: 11400000, guid: a96fc493e11c7b94d94dc7b31340560c, type: 2}
-  wheelDatabase: {fileID: 11400000, guid: 0bc9323e578490e40be5860c782e6932, type: 2}
+  signInDatabase: {fileID: 0}
+  wheelDatabase: {fileID: 0}
   onlineRewardDatabase: {fileID: 0}
   destroyCityNukes: {fileID: 0}
   destroyCityMaps: {fileID: 0}
   destroyCityFuels: {fileID: 0}
   destroyCityFuelProducers: {fileID: 0}
   destroyCityBuildings: {fileID: 0}
-  petDatabase: {fileID: 11400000, guid: 0a209b6fdbc620a4e922a61c45448c7e, type: 2}
-  wingDatabase: {fileID: 11400000, guid: da74ae247949957449b952d7ebf1162f, type: 2}
-  trailDatabase: {fileID: 11400000, guid: 0337fb510722ae44893dff7a1c076ef8, type: 2}
-  characterDatabase: {fileID: 11400000, guid: 39a8b001d5f3a7043a6b7eebe045271c, type: 2}
-  qualityVisualLibrary: {fileID: 11400000, guid: 0055aa6215a54c342912f7056b9de7d0, type: 2}
-  discountOffers: {fileID: 11400000, guid: 803ad1da06b04ce47bf93df12af091c0, type: 2}
+  petDatabase: {fileID: 0}
+  wingDatabase: {fileID: 0}
+  trailDatabase: {fileID: 0}
+  characterDatabase: {fileID: 0}
+  qualityVisualLibrary: {fileID: 0}
+  discountOffers: {fileID: 0}
   diamondCoinsExchange: {fileID: 11400000, guid: 75bfe60b51a35284c9be8068b1161510, type: 2}
 --- !u!4 &547329977
 Transform:
@@ -67960,7 +67960,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0905a67497f615b4d99c6ff8dddab5b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  balanceOverride: {fileID: 11400000, guid: 45dab4ba6a418ec489319c3031ea91f3, type: 2}
+  balanceOverride: {fileID: 0}
   mapDbOverride: {fileID: 0}
   petDbOverride: {fileID: 0}
   wingDbOverride: {fileID: 0}
@@ -67984,7 +67984,7 @@ MonoBehaviour:
   supermarketMapsOverride: {fileID: 0}
   animalHospitalOverride: {fileID: 0}
   wormDodgePickupOverride: {fileID: 0}
-  sceneNavigationSettingsOverride: {fileID: 11400000, guid: 8c7297b0c7681374b921521ad3289487, type: 2}
+  sceneNavigationSettingsOverride: {fileID: 0}
   gameProductSettingsOverride: {fileID: 0}
   bootstrapVfxBindings:
   - kind: 1

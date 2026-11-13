@@ -1,10 +1,5 @@
-using Game.Collectibles.Stats;
 using Game.Core;
-using Game.DestroyCity;
-using Game.EscapeSnake;
 using Game.Player;
-using Game.WormDodge;
-using Game.WormDodge.Pickups;
 using Game.SupermarketOrganize.Config;
 using UnityEngine;
 
@@ -31,11 +26,6 @@ namespace Game.SupermarketOrganize
 
         static void ApplyPlayerComponents(GameObject player, Camera gameplayCamera)
         {
-            DestroyCityPlayerSetup.SuppressFishingComponents(player);
-            DestroyCityPlayerSetup.SuppressDestroyCityComponents(player);
-            SuppressWormDodgeComponents(player);
-            Game.AnimalHospital.AnimalHospitalPlayerSetup.SuppressAnimalHospitalComponents(player);
-
             if (player.GetComponent<SupermarketOrganizeStatsAggregator>() == null)
                 player.AddComponent<SupermarketOrganizeStatsAggregator>();
 
@@ -108,16 +98,6 @@ namespace Game.SupermarketOrganize
             DisableIfPresent<SupermarketOrganizeSkillController>(player);
             DisableIfPresent<SupermarketOrganizeAttributeApplicator>(player);
             DisableIfPresent<SupermarketOrganizePlayerMotorBoost>(player);
-        }
-
-        static void SuppressWormDodgeComponents(GameObject player)
-        {
-            DisableIfPresent<WormDodgeParticipant>(player);
-            DisableIfPresent<WormChaseTarget>(player);
-            DisableIfPresent<WormDodgeStatsAggregator>(player);
-            DisableIfPresent<WormDodgePlayerMotorBoost>(player);
-            DisableIfPresent<WormDodgeParticipantPickupEffects>(player);
-            DisableIfPresent<PlayerWormDodgeController>(player);
         }
 
         static void DisableIfPresent<T>(GameObject player) where T : Behaviour
