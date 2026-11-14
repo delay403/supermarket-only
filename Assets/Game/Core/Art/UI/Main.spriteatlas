@@ -38,8 +38,70 @@ SpriteAtlas:
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
-  m_PackedSprites: []
-  m_PackedSpriteNamesToIndex: []
+  m_PackedSprites:
+  - {fileID: 21300000, guid: d16748202ca952d478a5294113ad6ede, type: 3}
+  - {fileID: 21300000, guid: 5a09d740a19965e42b30b6d49afc59a0, type: 3}
+  - {fileID: 21300000, guid: b43f77f0d2c9c3d4594caa2094350b89, type: 3}
+  - {fileID: 21300000, guid: c13391d13b4c9384ba25907314bc7f07, type: 3}
+  - {fileID: 21300000, guid: 61e75642b0337594284382d6e7120a3d, type: 3}
+  - {fileID: 21300000, guid: 08e45b6260c4e3a4ca9b80c4495049d9, type: 3}
+  - {fileID: 21300000, guid: 69db5ef2a10539c4c9de7293cd7f379a, type: 3}
+  - {fileID: 21300000, guid: 6ec1fc53646bc8f46b2c886881489a28, type: 3}
+  - {fileID: 21300000, guid: 1a5d8e93413466a46ac90b632699b28f, type: 3}
+  - {fileID: 21300000, guid: 1068f5e319e46d74796b9fa02826d544, type: 3}
+  - {fileID: 21300000, guid: be9a3594f2291de4d9be446ffff9b9f3, type: 3}
+  - {fileID: 21300000, guid: 1a16cb65069844744b945a025874d6b1, type: 3}
+  - {fileID: 21300000, guid: 79436595c4e48da4baa98ccbbf209715, type: 3}
+  - {fileID: 21300000, guid: 44ce66261f7f6c74c809f6dd23eda6f7, type: 3}
+  - {fileID: 21300000, guid: 37b25246528bda54ca0c34539df2af35, type: 3}
+  - {fileID: 21300000, guid: 7f5a0d270fd6cbc41af2f9f21f1b93d7, type: 3}
+  - {fileID: 21300000, guid: c92fd037f3f7fe643a97927d7610bf44, type: 3}
+  - {fileID: 21300000, guid: 4a38d068fe641a64b8bb6b90bdbc679a, type: 3}
+  - {fileID: 21300000, guid: 751fbfa8caa03d347b63c80632b8b699, type: 3}
+  - {fileID: 21300000, guid: a23ab3d8595c653448d3a6ddfed17ca6, type: 3}
+  - {fileID: 21300000, guid: df15f10ad3b7de644b786f0b8351a5f2, type: 3}
+  - {fileID: 21300000, guid: 1109608a8f785394dbaa7805d0a39769, type: 3}
+  - {fileID: 21300000, guid: 48be41da28fdaa645a6b78408386725c, type: 3}
+  - {fileID: 21300000, guid: 03532a6bfea490544b682417266b7509, type: 3}
+  - {fileID: 21300000, guid: fefd62fbae221304f9671250023b1dda, type: 3}
+  - {fileID: 21300000, guid: acc7042d02c2fbd4aa16eeef2e68879d, type: 3}
+  - {fileID: 21300000, guid: 5f9bbb2d33a61fb43a570473a7e86062, type: 3}
+  - {fileID: 21300000, guid: 159eb87d285385345a8a043d49668c85, type: 3}
+  - {fileID: 21300000, guid: f8f2fe4ee81d01e4c839aa612cd09063, type: 3}
+  - {fileID: 21300000, guid: b32f3cce20c76804abf2e98c33b66011, type: 3}
+  - {fileID: 21300000, guid: 66ea2c1fc88860041b8f637a1f27226d, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - anniu3
+  - yinxiao1
+  - zhendongguan2
+  - yinliangjian
+  - zhendongkai2
+  - guanbi
+  - jinbijia
+  - yaogan1
+  - zuanshijia
+  - zhendongguan1
+  - yaogan2
+  - tiaoyue
+  - yinyue1
+  - anniu1
+  - yinliangtiao1
+  - shezhi
+  - jinbikuangdi
+  - shezhi1
+  - yinxiao2
+  - zaixianjiangli
+  - yinliangtiao
+  - zuanshi
+  - shipin1
+  - anniu5
+  - zhendongkai1
+  - zhendong2 1
+  - yinyue2
+  - zhendong1 1
+  - tanchuangkuang
+  - zuanshikuangdi
+  - cwkuang1
   m_RenderDataMap: {}
   m_Tag: Main
   m_IsVariant: 0
