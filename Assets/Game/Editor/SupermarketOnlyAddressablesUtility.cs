@@ -8,6 +8,7 @@ using UnityEditor;
 using UnityEditor.AddressableAssets;
 using UnityEditor.AddressableAssets.Settings;
 using UnityEditor.Build;
+using UnityEditor.Build.Reporting;
 using UnityEditor.SceneManagement;
 using UnityEngine;
 
@@ -80,6 +81,31 @@ namespace Game.Editor
             AddressableAssetSettings.BuildPlayerContent(out var result);
             if (!string.IsNullOrEmpty(result.Error))
                 throw new BuildFailedException(result.Error);
+        }
+
+        public static void BuildDevelopmentPlayerBatch()
+        {
+            var scenes = EditorBuildSettings.scenes
+                .Where(scene => scene.enabled)
+                .Select(scene => scene.path)
+                .ToArray();
+            if (scenes.Length != 1 || !string.Equals(scenes[0], ScenePath, StringComparison.Ordinal))
+                throw new BuildFailedException("Development build must contain only the supermarket scene.");
+
+            const string output = "Builds/SupermarketOnly/SupermarketOnly.exe";
+            Directory.CreateDirectory(Path.GetDirectoryName(output) ?? "Builds/SupermarketOnly");
+            var report = BuildPipeline.BuildPlayer(new BuildPlayerOptions
+            {
+                scenes = scenes,
+                locationPathName = output,
+                target = BuildTarget.StandaloneWindows64,
+                options = BuildOptions.Development,
+            });
+            if (report.summary.result != BuildResult.Succeeded)
+                throw new BuildFailedException($"Player build failed: {report.summary.result}");
+
+            Debug.Log($"[SupermarketOnlyAddressablesUtility] Player build succeeded: {output}; " +
+                      $"scenes={scenes.Length}; size={report.summary.totalSize} bytes.");
         }
 
         static void RemoveLegacyFguiComponents()
