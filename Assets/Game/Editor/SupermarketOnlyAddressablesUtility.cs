@@ -177,6 +177,8 @@ namespace Game.Editor
             seeds.Add(ScenePath);
             seeds.Add("Assets/Game/Core/Resources/GameBalanceConfig.asset");
             seeds.Add("Assets/Game/Core/Resources/PlayerJumpConfig.asset");
+            seeds.Add("Assets/Game/Core/Art/UI/Main.spriteatlas");
+            seeds.Add("Assets/Game/Core/Art/UI/Prefabs/Panel/SettingPanel.prefab");
 
             foreach (var guid in AssetDatabase.FindAssets(string.Empty, new[] { "Assets/Game/Modes/SupermarketOrganize" }))
             {
