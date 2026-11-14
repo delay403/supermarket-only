@@ -38,7 +38,6 @@ namespace Game.Player
 
             ApplyBalanceIfPresent();
 
-            PlayerEquipmentRootsLayer.ApplyToHierarchy(transform);
         }
 
         private void ResolveCameraPivot()
@@ -121,29 +120,15 @@ namespace Game.Player
             TickGroundFootsteps(desired);
         }
 
-        /// <summary>躲避虫子装备移速加成（由 <see cref="WormDodge.WormDodgePlayerMotorBoost"/> 写入）。</summary>
-        public void SetWormDodgeMoveSpeedBonus(float add, float mul)
-        {
-            _wormDodgeMoveSpeedAdd = add;
-            _wormDodgeMoveSpeedMul = mul;
-        }
-
-        /// <summary>道具临时移速加成（与装备加成叠加）。</summary>
-        public void SetPickupMoveSpeedMultiplier(float mul) => _pickupMoveSpeedMul = Mathf.Max(0f, mul);
-
-        /// <summary>超市收纳属性移速加成（与装备加成叠加）。</summary>
+        /// <summary>应用超市收纳的移动速度倍率加成。</summary>
         public void SetSupermarketMoveSpeedBonus(float mul) => _supermarketMoveSpeedMul = Mathf.Max(0f, mul);
 
-        float _wormDodgeMoveSpeedAdd;
-        float _wormDodgeMoveSpeedMul;
-        float _pickupMoveSpeedMul;
         float _supermarketMoveSpeedMul;
 
         float ResolveMoveSpeed()
         {
-            var totalMul = _wormDodgeMoveSpeedMul + _pickupMoveSpeedMul + _supermarketMoveSpeedMul;
-            var speed = (moveSpeed + _wormDodgeMoveSpeedAdd) * (1f + totalMul);
-            var cap = (maxMoveSpeed + _wormDodgeMoveSpeedAdd) * (1f + totalMul);
+            var speed = moveSpeed * (1f + _supermarketMoveSpeedMul);
+            var cap = maxMoveSpeed * (1f + _supermarketMoveSpeedMul);
             return Mathf.Max(0f, Mathf.Min(speed, cap));
         }
 

@@ -1,8 +1,8 @@
 namespace Game.SupermarketOrganize
 {
     /// <summary>
-    /// 从 MainHome 快捷进入超市收纳场景时的启动参数。
-    /// TT 直连进玩法时不应设置 SkipInGameHomePage，以便在场景内选择难度。
+    /// 超市收纳场景的启动参数。
+    /// 直接进入玩法时不应跳过场景内的难度选择页。
     /// </summary>
     public static class SupermarketOrganizeLaunchContext
     {

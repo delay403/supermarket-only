@@ -1,5 +1,4 @@
 using System;
-using Game.Core;
 using UnityEngine;
 
 namespace Game.Save
@@ -28,8 +27,6 @@ namespace Game.Save
 
         public int stamina = 5;
         public long staminaLastRegenUtcTicks;
-
-        public ModeScopedProfile profile = new ModeScopedProfile();
 
         public void MigrateDefaultsIfNeeded()
         {

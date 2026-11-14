@@ -7,7 +7,7 @@ namespace Game.Core.Content
 {
     /// <summary>
     /// 挂在玩法场景上，在场景加载后将本模式的 SFX / VFX 合并进全局运行时服务。
-    /// MainHome 的 <see cref="GameBootstrapper"/> 只需保留通用资源，模式专属资源放各自场景。
+    /// 模式专属资源由当前场景直接注册到全局服务。
     /// </summary>
     public sealed class GameModeRuntimeBinder : MonoBehaviour
     {

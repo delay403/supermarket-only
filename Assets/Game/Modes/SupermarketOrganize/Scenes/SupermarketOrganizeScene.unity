@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.43751585, g: 0.48534638, b: 0.56562096, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -66556,7 +66556,6 @@ GameObject:
   - component: {fileID: 1081322217}
   - component: {fileID: 1081322216}
   - component: {fileID: 1081322215}
-  - component: {fileID: 1081322214}
   - component: {fileID: 1081322213}
   - component: {fileID: 1081322224}
   - component: {fileID: 1081322223}
@@ -66615,19 +66614,6 @@ MonoBehaviour:
   lookSensitivity: 0.1
   invertLookY: 0
   rightUseTouchDeltaForRotation: 1
---- !u!114 &1081322214
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1081322207}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7204d70a96d6bdd429a7ba43d60ec6de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rig: {fileID: 1081322215}
 --- !u!114 &1081322215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70359,7 +70345,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1148301021}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.880435, y: -5, z: 0}
+  m_LocalPosition: {x: 6.6666665, y: -5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -139421,20 +139407,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5105383727281494507}
   m_CullTransparentMesh: 1
---- !u!114 &5105383728038352358
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5105383728038352381}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01267c75a5b14b148b384d74ad5c7e2b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  alsoQueueOnClick: 0
 --- !u!114 &5105383728038352376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -139549,7 +139521,6 @@ GameObject:
   - component: {fileID: 5105383728038352377}
   - component: {fileID: 5105383728038352376}
   - component: {fileID: 5105383728038352379}
-  - component: {fileID: 5105383728038352358}
   m_Layer: 5
   m_Name: BtnJump
   m_TagString: Untagged

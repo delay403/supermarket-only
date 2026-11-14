@@ -120,7 +120,7 @@ namespace Game.UI
 
             AudioGameplayFeedback.PlayUiError();
             if (insufficientGems)
-                UiRouter.OpenFreeDiamondsOffer();
+                RefreshExchangeSection();
         }
 
         void OnClaimClicked()
