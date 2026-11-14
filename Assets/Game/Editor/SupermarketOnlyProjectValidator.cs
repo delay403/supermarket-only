@@ -3,15 +3,40 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using Game.UI;
 using UnityEditor;
 using UnityEditor.Build;
 using UnityEditor.SceneManagement;
+using UnityEditor.U2D;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.U2D;
+using UnityEngine.UI;
 
 namespace Game.Editor
 {
     public static class SupermarketOnlyProjectValidator
     {
+        const string ScenePath = "Assets/Game/Modes/SupermarketOrganize/Scenes/SupermarketOrganizeScene.unity";
+        const string SettingsPrefabPath = "Assets/Game/Core/Art/UI/Prefabs/Panel/SettingPanel.prefab";
+        const string SettingsAtlasPath = "Assets/Game/Core/Art/UI/Main.spriteatlas";
+        const string SharedUiFolder = "Assets/Game/Core/Art/UI/Main";
+
+        static readonly string[] RequiredSettingsSprites =
+        {
+            SharedUiFolder + "/shezhi.png",
+            SharedUiFolder + "/shezhi1.png",
+            SharedUiFolder + "/guanbi.png",
+            SharedUiFolder + "/tanchuangkuang.png",
+            SharedUiFolder + "/yinliangtiao.png",
+            SharedUiFolder + "/yinliangtiao1.png",
+            SharedUiFolder + "/yinliangjian.png",
+            SharedUiFolder + "/yinxiao1.png",
+            SharedUiFolder + "/yinxiao2.png",
+            SharedUiFolder + "/yinyue1.png",
+            SharedUiFolder + "/yinyue2.png",
+        };
+
         static readonly string[] ForbiddenRoots =
         {
             "Assets/Game/Modes/AnimalHospital", "Assets/Game/Modes/DestroyCity",
@@ -26,6 +51,12 @@ namespace Game.Editor
             "Assets/Game/Scripts/AI", "Assets/Game/Scripts/Leaderboard",
             "Assets/Game/Core/Scenes/MainHome.unity",
             "Assets/Game/Core/Scenes/SceneTransition.unity",
+            "Assets/Game/Core/Art/UI/Main/lunpan.png",
+            "Assets/Game/Core/Art/UI/Prefabs/LuckyWheelSlot.prefab",
+            "Assets/Game/Core/Art/UI/Prefabs/Panel/LuckyWheelPanel.prefab",
+            "Assets/Game/Scripts/Features/LuckyWheel",
+            "Assets/Game/Scripts/UI/LuckyWheelPanel.cs",
+            "Assets/Game/Scripts/UI/WheelRewardSlotView.cs",
         };
 
         static readonly string[] ForbiddenTokens =
@@ -84,11 +115,11 @@ namespace Game.Editor
                     errors.Add("Forbidden Addressables group: " + name);
             }
 
-            const string scenePath = "Assets/Game/Modes/SupermarketOrganize/Scenes/SupermarketOrganizeScene.unity";
-            var scene = EditorSceneManager.OpenScene(scenePath, OpenSceneMode.Single);
+            var scene = EditorSceneManager.OpenScene(ScenePath, OpenSceneMode.Single);
             foreach (var root in scene.GetRootGameObjects())
                 CollectMissingScripts(root, errors);
 
+            ValidateSettingsUi(scene, errors);
             ValidateSaveCompatibility(errors);
             if (errors.Count == 0)
             {
@@ -108,6 +139,69 @@ namespace Game.Editor
                 errors.Add("Missing script on scene object: " + GetPath(root.transform));
             foreach (Transform child in root.transform)
                 CollectMissingScripts(child.gameObject, errors);
+        }
+
+        static void ValidateSettingsUi(Scene scene, ICollection<string> errors)
+        {
+            foreach (var path in RequiredSettingsSprites)
+                if (AssetDatabase.LoadAssetAtPath<Sprite>(path) == null)
+                    errors.Add("Required settings Sprite is missing or not imported as Sprite: " + path);
+
+            var atlas = AssetDatabase.LoadAssetAtPath<SpriteAtlas>(SettingsAtlasPath);
+            if (atlas == null)
+                errors.Add("Settings UI atlas is missing: " + SettingsAtlasPath);
+            else
+            {
+                var packsSharedFolder = SpriteAtlasExtensions.GetPackables(atlas)
+                    .Any(x => string.Equals(AssetDatabase.GetAssetPath(x), SharedUiFolder, StringComparison.Ordinal));
+                if (!packsSharedFolder)
+                    errors.Add("Settings UI atlas must pack: " + SharedUiFolder);
+            }
+
+            var setting = FindScenePath(scene, "Canvas/Setting");
+            if (setting == null)
+            {
+                errors.Add("Scene settings entry is missing: Canvas/Setting");
+            }
+            else
+            {
+                var image = setting.GetComponent<Image>();
+                if (image == null || image.sprite == null)
+                    errors.Add("Canvas/Setting must render a non-null gear Sprite.");
+
+                var rect = setting as RectTransform;
+                if (rect == null || Vector2.Distance(rect.sizeDelta, new Vector2(48f, 48f)) > 0.01f)
+                    errors.Add("Canvas/Setting size must be 48x48.");
+                if (rect == null || Vector2.Distance(rect.anchoredPosition, new Vector2(42f, -42f)) > 0.01f)
+                    errors.Add("Canvas/Setting must use an 18px top-left safe margin.");
+            }
+
+            var prefab = AssetDatabase.LoadAssetAtPath<GameObject>(SettingsPrefabPath);
+            var panel = prefab != null ? prefab.GetComponentInChildren<SettingsPanel>(true) : null;
+            if (panel == null)
+            {
+                errors.Add("SettingsPanel prefab/controller is missing: " + SettingsPrefabPath);
+                return;
+            }
+
+            if (panel.mainPanel == null || panel.mainPanel.GetComponent<Image>()?.sprite == null)
+                errors.Add("SettingsPanel main frame Sprite is missing.");
+            if (panel.closeButton == null || (panel.closeButton.targetGraphic as Image)?.sprite == null)
+                errors.Add("SettingsPanel close-button Sprite is missing.");
+            if (panel.sfxSlider == null || panel.bgmSlider == null)
+                errors.Add("SettingsPanel volume sliders are not bound.");
+            if (panel.sfxIconNormal == null || panel.sfxIconMuted == null ||
+                panel.bgmIconNormal == null || panel.bgmIconMuted == null)
+                errors.Add("SettingsPanel sound/music icon states are incomplete.");
+        }
+
+        static Transform FindScenePath(Scene scene, string path)
+        {
+            var split = path.IndexOf('/');
+            var rootName = split >= 0 ? path.Substring(0, split) : path;
+            var childPath = split >= 0 ? path.Substring(split + 1) : string.Empty;
+            var root = scene.GetRootGameObjects().FirstOrDefault(x => x.name == rootName);
+            return root == null ? null : childPath.Length == 0 ? root.transform : root.transform.Find(childPath);
         }
 
         static string GetPath(Transform transform)
