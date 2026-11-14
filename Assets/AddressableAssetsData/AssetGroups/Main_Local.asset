@@ -22,11 +22,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - main
-  - m_GUID: cc33592b615bd274da60c8d8b2fa6f3b
-    m_Address: Assets/Game/UI/FGUI/Resources
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - main
   - m_GUID: 5081958cbafebd14c81f75c08f884eff
     m_Address: Assets/Game/Core/Resources
     m_ReadOnly: 0

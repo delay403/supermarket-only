@@ -434,14 +434,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1465083348}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &3740443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1032,14 +1025,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1537979747}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &14010812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2015,14 +2001,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 632996706}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &26808996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2145,14 +2124,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1789743091}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &29179761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2669,14 +2641,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1648150051}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &32007585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3115,14 +3080,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 246608116}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &36918747
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3695,14 +3653,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 412471647}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &49703393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3825,14 +3776,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 799845370}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &51188608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4467,14 +4411,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 179254056}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &59970104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4674,14 +4611,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 400383043}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &60865982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5994,14 +5924,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 285778237}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &83960663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6226,14 +6149,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 828862947}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &88276764
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7075,14 +6991,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 645266515}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &100680802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7474,14 +7383,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 717705762}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &109315969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7920,14 +7822,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1163273959}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &113026563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8130,14 +8025,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1109292284}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &115768325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8291,14 +8179,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 2100906381}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &119807949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10119,14 +10000,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 139597359}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &140743850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10656,14 +10530,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 2099993670}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &147113436
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11138,14 +11005,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1745838525}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &161935133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12167,14 +12027,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1471455581}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &179202316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13086,14 +12939,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1697379203}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &198201564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13611,7 +13457,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1670482920}
-  - {fileID: 1956304726}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -14256,14 +14101,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 396810768}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &222158793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14970,14 +14808,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 329746520}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &232693876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16190,14 +16021,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1848644708}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &256110392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16320,14 +16144,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 407164828}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &257328572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16790,14 +16607,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 219996435}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &267700392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17079,14 +16889,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 2086552706}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &268612107
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17505,14 +17308,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1882632327}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &280186477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18014,14 +17810,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 808666315}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &289143988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18808,14 +18597,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 597931151}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &305922750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19505,14 +19287,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 205957222}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &315053382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20391,14 +20166,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 989451864}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &324895585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21091,14 +20859,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1349505626}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &331482195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22495,14 +22256,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 341101151}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &356229966
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22782,14 +22536,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1108622135}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &362361378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23957,14 +23704,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 663669207}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &377670187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24888,14 +24628,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 933717224}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &388911216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25018,14 +24751,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1612578435}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &389595273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25443,14 +25169,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 2133041601}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &395303191
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25958,14 +25677,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1570330816}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &398694568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26832,14 +26544,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 2108280992}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &412819147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26962,14 +26667,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1847686416}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &416735375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27092,14 +26790,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 29828314}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &417929299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28406,14 +28097,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 2067621217}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &434911630
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28936,14 +28620,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1388082617}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &440954831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29465,14 +29142,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 61809101}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &444967600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29807,14 +29477,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1185232649}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &448403443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30097,14 +29760,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1410232955}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &449814110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30293,14 +29949,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 762685539}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &451631839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30649,14 +30298,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1685813221}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &458126254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31147,14 +30789,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 513800716}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &469746296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31277,14 +30912,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1048271344}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &471386414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31801,14 +31429,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1805794016}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &482491001
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32391,14 +32012,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 2129750338}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &492481066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34149,14 +33763,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 696789756}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &525072762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34698,14 +34305,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1006190311}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &532330000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35344,14 +34944,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1372753858}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &545670624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35455,33 +35048,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf22654b6ee7b524587b11c52fd4a058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animalHospital: {fileID: 0}
-  wormDodgePickup: {fileID: 0}
   supermarketOrganize: {fileID: 11400000, guid: b25656ba6b8404e44aa1fce1f80aa8f7, type: 2}
   supermarketItems: {fileID: 11400000, guid: 769c902e14686784eb96680afbf6f34e, type: 2}
   supermarketMaps: {fileID: 11400000, guid: 354294cc7604335499a569ed1ded3b6c, type: 2}
   supermarketProgression: {fileID: 11400000, guid: f0e88fa4bd6cef34490babb659c19a4a, type: 2}
   supermarketUpgradeUi: {fileID: 11400000, guid: 7c4a03b763fc7a64f8d2949deeac7000, type: 2}
   supermarketHome: {fileID: 11400000, guid: 86b0a73046539f74b9aa4931d60c921a, type: 2}
-  fishDatabase: {fileID: 0}
-  fishingZoneDatabase: {fileID: 0}
-  rodDatabase: {fileID: 0}
-  strengthTrainingGrounds: {fileID: 0}
-  mapDatabase: {fileID: 0}
-  signInDatabase: {fileID: 0}
-  wheelDatabase: {fileID: 0}
-  onlineRewardDatabase: {fileID: 0}
-  destroyCityNukes: {fileID: 0}
-  destroyCityMaps: {fileID: 0}
-  destroyCityFuels: {fileID: 0}
-  destroyCityFuelProducers: {fileID: 0}
-  destroyCityBuildings: {fileID: 0}
-  petDatabase: {fileID: 0}
-  wingDatabase: {fileID: 0}
-  trailDatabase: {fileID: 0}
-  characterDatabase: {fileID: 0}
-  qualityVisualLibrary: {fileID: 0}
-  discountOffers: {fileID: 0}
   diamondCoinsExchange: {fileID: 11400000, guid: 75bfe60b51a35284c9be8068b1161510, type: 2}
 --- !u!4 &547329977
 Transform:
@@ -35778,14 +35350,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 909801207}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &551555894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36134,14 +35699,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1934547789}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &560132627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36330,14 +35888,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 2035854425}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &560603327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37887,14 +37438,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 197605067}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &595822145
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38674,14 +38218,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 2118235537}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &606092115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40797,14 +40334,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1432772615}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &636863585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41313,14 +40843,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 552370758}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &648464221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43233,14 +42756,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1214080238}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &683877179
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43555,14 +43071,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 524605807}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &687683867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43685,14 +43194,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 91618151}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &688181872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44203,14 +43705,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1831474533}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &691359669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44819,14 +44314,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 314473609}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &701610988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44980,14 +44468,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 496504348}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &702665915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45187,14 +44668,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 984162825}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &707646275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46658,14 +46132,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1354924421}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &734133731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46956,14 +46423,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 107236818}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &738668945
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47657,14 +47117,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1171659818}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &749016020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47787,14 +47240,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1134576494}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &749578715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47917,14 +47363,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1968409560}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &751197788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48600,14 +48039,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 540206986}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &762329706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48903,14 +48335,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 790088496}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &768629465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49170,14 +48595,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1951902175}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &771185623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49377,14 +48795,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 978755298}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &772552106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49696,14 +49107,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1181574314}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &775125964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49826,14 +49230,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 882455171}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &775567607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49956,14 +49353,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1248738962}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &776121139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50925,14 +50315,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 88503592}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &798334602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52130,14 +51513,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 636485567}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &812923474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52767,14 +52143,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 339108960}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &825885911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54076,14 +53445,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1427781935}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &843138006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54884,7 +54246,7 @@ RectTransform:
   m_Children:
   - {fileID: 832485340}
   m_Father: {fileID: 956721675}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -54977,14 +54339,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 359800040}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &871175774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55277,332 +54632,6 @@ Transform:
   m_Father: {fileID: 1614511049}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &877744698
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 956721675}
-    m_Modifications:
-    - target: {fileID: 1945631622814383030, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631622814383030, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631622814383030, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631622814383030, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 457.82373
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631622814383030, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631622814383030, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -240.91187
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631622835639492, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631622835639492, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631622835639492, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 154
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631622835639492, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631622835639492, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 101
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631622835639492, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631623246878541, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631623246878541, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631623246878541, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 154
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631623246878541, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631623246878541, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631623246878541, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631623249013529, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631623249013529, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631623249013529, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 154
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631623249013529, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631623249013529, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631623249013529, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631623894939475, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631623894939475, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631623894939475, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 154
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631623894939475, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631623894939475, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631623894939475, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631623988522693, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631623988522693, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631623988522693, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 154
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631623988522693, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631623988522693, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 101
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631623988522693, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631624346679089, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631624346679089, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631624346679089, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 154
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631624346679089, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631624346679089, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945631624346679089, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303239518741658, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303239518741658, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303239518741658, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 522.9362
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303239518741658, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303239518741658, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -261.4681
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303239569812557, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -30.11615
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303239624237307, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303239905760997, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 17.060059
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303239990069011, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 5.3825684
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303240051704333, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_Name
-      value: SignInPanel
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303240051704333, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303240051704334, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303240051704334, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303240051704334, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303240051704334, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303240051704334, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303240051704334, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303240051704334, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303240051704334, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303240051704334, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303240051704334, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303240051704334, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303240051704334, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303240051704334, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303240051704334, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303240051704334, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303240051704334, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303240051704334, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303240051704334, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303240051704334, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303240051704334, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303240051704334, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303240491464566, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -15.173462
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303240711266276, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 5.4001465
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303240852374654, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: -120.93622
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571303240852662200, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 19.999878
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
---- !u!224 &877744699 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 4571303240051704334, guid: 5095c4357a45ee647af78fcec85ae552, type: 3}
-  m_PrefabInstance: {fileID: 877744698}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &881079688
 GameObject:
   m_ObjectHideFlags: 0
@@ -55664,14 +54693,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 724821669}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &881079691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55950,14 +54972,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 564217102}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &885510914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56797,14 +55812,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 113266565}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &903058063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57090,14 +56098,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 451981119}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &909406694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57670,14 +56671,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 2143692086}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &923524807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58663,14 +57657,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 378926452}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &934748498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59762,14 +58749,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1360277498}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &952887348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60060,14 +59040,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1884571347}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &953496086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60312,8 +59285,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1241548108}
-  - {fileID: 877744699}
   - {fileID: 1290808595}
   - {fileID: 1439805665}
   - {fileID: 1995591126}
@@ -60730,14 +59701,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 2021495781}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &963807576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61117,14 +60081,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 187844863}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &969782283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61247,14 +60204,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 2023299972}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &971099857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62970,14 +61920,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1059367616}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1002937755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63387,14 +62330,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 635944471}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1012461796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64139,14 +63075,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1294076361}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1031398412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64836,14 +63765,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 34844624}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1045970705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65917,14 +64839,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1018270216}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1065146563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66047,14 +64962,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 2121111914}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1067850970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66242,51 +65150,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bd62d29e9b307b4c8d52f783d64a910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1081322220}
-  input: {fileID: 1081322208}
-  mode: 0
-  freeOffset: {x: 0, y: 0, z: -5}
-  yawSpeed: 200
-  pitchSpeed: 160
-  pitchMin: -25
-  pitchMax: 65
-  followSharpness: 1200
-  pivotHeight: 1
-  lookInputSmoothSharpness: 22
-  lookOrbitSharpness: 40
-  climbOffset: {x: 0.5, y: -2, z: -7}
-  climbFov: 55
-  climbYawSpeed: 120
-  climbPitchSpeed: 100
-  climbPitchMin: -66
-  climbPitchMax: 65
-  climbFollowSharpness: 14
-  climbPivotHeight: 2.4
-  collisionAvoidance: 1
-  collisionMask:
-    serializedVersion: 2
-    m_Bits: 34816
-  probeRadius: 0.25
-  nearPadding: 0.12
-  minDistance: 1.2
-  returnSharpness: 16
-  ignoreColliderMinExtent: 0.25
-  backflipCamBlendPitchDegrees: 18
-  glideOffset: {x: 4, y: 2.5, z: -6}
-  glideFov: 65
-  glidePivotHeight: 1.5
-  forcedSharpness: 500
-  glideUseOrbitalFreeLook: 1
-  settlementOffset: {x: 0, y: 2, z: -6}
-  settlementFov: 65
-  settlementPivotHeight: 1.5
-  glideLandingSettlementBackOffsetLocal: {x: 0, y: 2.2, z: -5.5}
-  glideLandingSettlementFrontOffsetLocal: {x: 0, y: 2.2, z: 5.5}
-  glideLandingSettlementCameraLockWorldXY: 1
-  glideLandingSettlementCameraWorldXY: {x: 26, y: 1}
-  fovSharpness: 10
-  mouseLookScale: 0.12
-  landingImpactShakeFrequencyHz: 38
 --- !u!114 &1072495974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66584,13 +65447,11 @@ MonoBehaviour:
   moveY: Vertical
   lookX: Mouse X
   lookY: Mouse Y
-  climbKey: 101
-  glideKey: 32
+  actionKey: 32
   moveBlendMode: 3
   lookBlendMode: 3
   lookHardwareScale: 1
   lookVirtualScale: 1
-  virtualLookMaxRate: 3
   disableHardwareLookOnTouchPlatforms: 1
 --- !u!114 &1081322213
 MonoBehaviour:
@@ -66626,19 +65487,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12c60096aa60e2c459fbc927259ba9cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  petSocket: {fileID: 1782141402}
-  petSocket1: {fileID: 21387364}
-  petSocket2: {fileID: 1947647896}
-  wingSocket: {fileID: 0}
-  carrySocket: {fileID: 0}
-  trailSocket: {fileID: 118112605}
-  rodBackSocket: {fileID: 0}
-  rodHandSocket: {fileID: 0}
-  rodSocket: {fileID: 674784656}
-  fishSocket: {fileID: 0}
-  handFishSocket: {fileID: 0}
-  footSocket: {fileID: 1975524539}
-  characterSocket: {fileID: 1093032236}
 --- !u!114 &1081322216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66654,7 +65502,6 @@ MonoBehaviour:
   motor: {fileID: 1081322218}
   anim: {fileID: 1093032237}
   input: {fileID: 1081322208}
-  climb: {fileID: 0}
   jumpConfig: {fileID: 11400000, guid: a98735f2a6f07494e949513894a335c3, type: 2}
 --- !u!143 &1081322217
 CharacterController:
@@ -67674,14 +66521,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 2131635035}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1094312389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67947,31 +66787,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   balanceOverride: {fileID: 0}
-  mapDbOverride: {fileID: 0}
-  petDbOverride: {fileID: 0}
-  wingDbOverride: {fileID: 0}
-  trailDbOverride: {fileID: 0}
-  characterDbOverride: {fileID: 0}
-  rodDbOverride: {fileID: 0}
-  fishDbOverride: {fileID: 0}
-  fishingZoneDbOverride: {fileID: 0}
-  signInDbOverride: {fileID: 0}
-  wheelDbOverride: {fileID: 0}
-  onlineRewardDbOverride: {fileID: 0}
-  qualityVisualsOverride: {fileID: 0}
-  strengthTrainingGroundsOverride: {fileID: 0}
-  destroyCityNukesOverride: {fileID: 0}
-  destroyCityMapsOverride: {fileID: 0}
-  destroyCityFuelsOverride: {fileID: 0}
-  destroyCityFuelProducersOverride: {fileID: 0}
-  destroyCityBuildingsOverride: {fileID: 0}
   supermarketOrganizeOverride: {fileID: 0}
   supermarketItemsOverride: {fileID: 0}
   supermarketMapsOverride: {fileID: 0}
-  animalHospitalOverride: {fileID: 0}
-  wormDodgePickupOverride: {fileID: 0}
-  sceneNavigationSettingsOverride: {fileID: 0}
-  gameProductSettingsOverride: {fileID: 0}
   bootstrapVfxBindings:
   - kind: 1
     prefab: {fileID: 7469139257048491160, guid: aca327b387982804c92fea8fb377ae9c, type: 3}
@@ -70058,14 +68876,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 988275609}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1146526987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70239,7 +69050,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1148301025}
   - component: {fileID: 1148301024}
-  - component: {fileID: 1148301023}
   - component: {fileID: 1148301022}
   m_Layer: 0
   m_Name: Stage Camera
@@ -70281,19 +69091,6 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
---- !u!114 &1148301023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1148301021}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 367e80e3fa958344491a9a196a902b72, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  constantSize: 1
 --- !u!20 &1148301024
 Camera:
   m_ObjectHideFlags: 0
@@ -70666,14 +69463,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 32573616}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1155808485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71113,14 +69903,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1689701661}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1161467037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71805,14 +70588,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1653773149}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1168175248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72200,14 +70976,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1393424468}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1171992730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72615,14 +71384,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1835273366}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1175384451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73300,14 +72062,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1429842654}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1182988623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74340,14 +73095,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1246488006}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1192558192
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75451,14 +74199,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 685688931}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1213893475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76320,14 +75061,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 2026207828}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1225577992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76450,14 +75184,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1699568224}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1226349119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76759,14 +75486,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1470261655}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1233615289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77081,14 +75801,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1974387083}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1236493594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77407,14 +76120,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 154832924}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1240184581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77588,132 +76294,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1241536503}
   m_CullTransparentMesh: 1
---- !u!1001 &1241548107
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 956721675}
-    m_Modifications:
-    - target: {fileID: 2254600461268556699, guid: 3ac52d6443e9f3348830de183534ea58, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 29.100098
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254600461397214698, guid: 3ac52d6443e9f3348830de183534ea58, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 62.900024
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254600461782541322, guid: 3ac52d6443e9f3348830de183534ea58, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254600461782541322, guid: 3ac52d6443e9f3348830de183534ea58, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254600461782541322, guid: 3ac52d6443e9f3348830de183534ea58, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254600461782541322, guid: 3ac52d6443e9f3348830de183534ea58, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254600461782541322, guid: 3ac52d6443e9f3348830de183534ea58, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254600461782541322, guid: 3ac52d6443e9f3348830de183534ea58, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254600461782541322, guid: 3ac52d6443e9f3348830de183534ea58, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254600461782541322, guid: 3ac52d6443e9f3348830de183534ea58, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254600461782541322, guid: 3ac52d6443e9f3348830de183534ea58, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254600461782541322, guid: 3ac52d6443e9f3348830de183534ea58, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254600461782541322, guid: 3ac52d6443e9f3348830de183534ea58, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254600461782541322, guid: 3ac52d6443e9f3348830de183534ea58, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254600461782541322, guid: 3ac52d6443e9f3348830de183534ea58, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254600461782541322, guid: 3ac52d6443e9f3348830de183534ea58, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254600461782541322, guid: 3ac52d6443e9f3348830de183534ea58, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254600461782541322, guid: 3ac52d6443e9f3348830de183534ea58, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254600461782541322, guid: 3ac52d6443e9f3348830de183534ea58, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254600461782541322, guid: 3ac52d6443e9f3348830de183534ea58, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254600461782541322, guid: 3ac52d6443e9f3348830de183534ea58, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254600461782541322, guid: 3ac52d6443e9f3348830de183534ea58, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254600461782541322, guid: 3ac52d6443e9f3348830de183534ea58, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254600461782541325, guid: 3ac52d6443e9f3348830de183534ea58, type: 3}
-      propertyPath: m_Name
-      value: LuckyWheelPanel
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254600461782541325, guid: 3ac52d6443e9f3348830de183534ea58, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254600462391266897, guid: 3ac52d6443e9f3348830de183534ea58, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254600462927085791, guid: 3ac52d6443e9f3348830de183534ea58, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 12.300049
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254600462927085791, guid: 3ac52d6443e9f3348830de183534ea58, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -53.42798
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3ac52d6443e9f3348830de183534ea58, type: 3}
---- !u!224 &1241548108 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 2254600461782541322, guid: 3ac52d6443e9f3348830de183534ea58, type: 3}
-  m_PrefabInstance: {fileID: 1241548107}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1241563436
 GameObject:
   m_ObjectHideFlags: 0
@@ -78590,14 +77170,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1577864937}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1251267836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78795,69 +77368,8 @@ MonoBehaviour:
   gemsText: {fileID: 928786213}
   coinsPlusButton: {fileID: 1270707226}
   gemsPlusButton: {fileID: 799038162}
-  btnDoubleCoins: {fileID: 0}
-  doubleCoinsTimerText: {fileID: 0}
-  btnSignIn: {fileID: 0}
-  btnLuckyWheel: {fileID: 0}
-  btnOnlineReward: {fileID: 0}
-  routerPetBackpack: {fileID: 0}
-  routerPetHatch: {fileID: 0}
-  routerCharacter: {fileID: 0}
-  routerTrail: {fileID: 0}
-  routerWing: {fileID: 0}
-  btnJump: {fileID: 5105383728038352379}
   btnInteract: {fileID: 0}
   btnInteractIcon: {fileID: 0}
-  towerSectionRoot: {fileID: 0}
-  btnMapSelect: {fileID: 0}
-  mapTitleText: {fileID: 0}
-  medalsText: {fileID: 0}
-  medalsRoot: {fileID: 0}
-  heightText: {fileID: 0}
-  staminaSlider: {fileID: 0}
-  staminaLabel: {fileID: 0}
-  btnDoubleSpeed: {fileID: 0}
-  doubleSpeedTimerText: {fileID: 0}
-  btnAutoClimb: {fileID: 0}
-  autoClimbLabel: {fileID: 0}
-  autoClimbCheckmark: {fileID: 0}
-  wormDodgeStaminaRoot: {fileID: 0}
-  wormDodgeStaminaAmountText: {fileID: 0}
-  wormDodgeStaminaRegenText: {fileID: 0}
-  btnWormDodgeStamina: {fileID: 0}
-  wormDodgeStaminaLabel: {fileID: 0}
-  fishingSectionRoot: {fileID: 0}
-  fishingZoneLabel: {fileID: 0}
-  strengthText: {fileID: 0}
-  btnStrength: {fileID: 0}
-  strengthLabel: {fileID: 0}
-  routerRodShop: {fileID: 0}
-  routerFishCodex: {fileID: 0}
-  btnFishingAction: {fileID: 0}
-  fishingActionLabel: {fileID: 0}
-  fishingActiveRoot: {fileID: 0}
-  fishingHintText: {fileID: 0}
-  fishingReelHintRoot: {fileID: 0}
-  fishingProgressSlider: {fileID: 0}
-  fishingProgressText: {fileID: 0}
-  btnEndFishing: {fileID: 0}
-  fishingProgressAnimUnitsPerSecond: 0
-  btnTenCatchReward: {fileID: 0}
-  btnAutoFishing: {fileID: 0}
-  autoFishingLabel: {fileID: 0}
-  autoFishingRewardIcon: {fileID: 0}
-  autoFishingTimerRoot: {fileID: 0}
-  autoFishingTimerText: {fileID: 0}
-  reelProgressFloater: {fileID: 0}
-  reelProgressPopupPrefab: {fileID: 3598199017215923329, guid: de674d63f00297142853f0ec73570c8f, type: 3}
-  reelProgressFloatAnchor: {fileID: 0}
-  reelFloatOffsetMin: {x: -120, y: 20}
-  reelFloatOffsetMax: {x: 120, y: 80}
-  strengthGainFloater: {fileID: 0}
-  catchToastAnchor: {fileID: 0}
-  fishingBridge: {fileID: 0}
-  jumpInput: {fileID: 1081322208}
-  fishingStats: {fileID: 0}
 --- !u!114 &1253040063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78871,8 +77383,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uguiHud: {fileID: 1253040060}
-  gameUIPanel: {fileID: 0}
-  jumpInput: {fileID: 1081322208}
 --- !u!114 &1253040064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79097,14 +77607,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1202486027}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1257439361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79498,14 +78001,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1246604693}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1261994779
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79576,8 +78072,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1263482512}
-  - component: {fileID: 1263482511}
-  - component: {fileID: 1263482510}
   m_Layer: 5
   m_Name: UIPanel
   m_TagString: Untagged
@@ -79585,54 +78079,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &1263482510
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1263482509}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a723f7fd716aac049aa24e9186f18685, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scaleMode: 1
-  screenMatchMode: 0
-  designResolutionX: 1280
-  designResolutionY: 720
-  fallbackScreenDPI: 96
-  defaultSpriteDPI: 96
-  constantScaleFactor: 1
-  ignoreOrientation: 0
---- !u!114 &1263482511
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1263482509}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 024553ecf96a65649b929ee08c9214fd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  packageName: 
-  componentName: GameWnd
-  fitScreen: 1
-  sortingOrder: 1
-  packagePath: 
-  renderMode: 0
-  renderCamera: {fileID: 1148301024}
-  position: {x: 0, y: 0, z: 0}
-  scale: {x: 1, y: 1, z: 1}
-  rotation: {x: 0, y: 0, z: 0}
-  fairyBatching: 1
-  touchDisabled: 0
-  cachedUISize: {x: 1280, y: 720}
-  hitTestMode: 0
-  setNativeChildrenOrder: 0
-  suppressDependencyAutoLoad: 1
 --- !u!4 &1263482512
 Transform:
   m_ObjectHideFlags: 0
@@ -79709,14 +78155,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1508571948}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1266704818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80306,14 +78745,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1865660809}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1274801526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80784,14 +79216,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 983215792}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1282257400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81328,7 +79753,7 @@ RectTransform:
   m_Children:
   - {fileID: 694154810}
   m_Father: {fileID: 956721675}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -81807,14 +80232,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 755783110}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1296457165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82296,14 +80714,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1774303130}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1307635557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82682,14 +81093,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 747886756}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1314091518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83288,14 +81692,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 578971967}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1319837230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84539,14 +82936,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 458889826}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1340778459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84669,14 +83059,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1455556590}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1343493912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85177,14 +83560,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 746910731}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1347460955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85510,7 +83886,7 @@ RectTransform:
   - {fileID: 1463796525}
   - {fileID: 1890672765}
   m_Father: {fileID: 956721675}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -85844,14 +84220,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1517562068}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1353700529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86511,14 +84880,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 131115099}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1358358805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87092,14 +85454,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1599750262}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1369768428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89405,8 +87760,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uguiHud: {fileID: 1253040060}
-  gameUIPanel: {fileID: 0}
-  jumpInput: {fileID: 1081322208}
 --- !u!4 &1407014677
 Transform:
   m_ObjectHideFlags: 0
@@ -89483,14 +87836,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 751675739}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1408158645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91111,14 +89457,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1688943047}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1435985613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91241,14 +89580,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 177625760}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1438426593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91560,7 +89892,7 @@ RectTransform:
   m_Children:
   - {fileID: 1868514719}
   m_Father: {fileID: 956721675}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -92562,14 +90894,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1200529295}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1459052538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93243,14 +91568,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 808211292}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1464263220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94274,14 +92592,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1315444801}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1477646034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94561,14 +92872,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 504535009}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1485675036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94891,14 +93195,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1866652698}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1488646987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95021,14 +93318,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 57631127}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1489318947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95151,14 +93441,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 969334578}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1490071726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95347,14 +93630,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 39718893}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1490741894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96821,14 +95097,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 166178865}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1534768744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98094,14 +96363,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1608306071}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1553871857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98415,14 +96677,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1267115388}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1560041476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98515,7 +96770,7 @@ RectTransform:
   m_Children:
   - {fileID: 148275611}
   m_Father: {fileID: 956721675}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -98607,14 +96862,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 568799469}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1561206490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99040,14 +97288,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 743629449}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1565211380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100575,14 +98816,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1346910925}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1594890090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100705,14 +98939,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1555332339}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1595190903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100835,14 +99062,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 337902465}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1596645965
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101199,14 +99419,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1234879318}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1599870224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101621,14 +99834,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1038099545}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1609711652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101902,14 +100108,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1422182357}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1613863640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102359,14 +100558,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1880151781}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1619775834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102949,14 +101141,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 448552453}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1631000611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103079,14 +101264,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 404656792}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1633543299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103522,14 +101700,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 2033687520}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1641795334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -104978,14 +103149,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1414150526}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1663362853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105600,14 +103764,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1475080452}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1674229190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105898,14 +104055,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 449610272}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1678796997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -106311,14 +104461,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1983335403}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1681766952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107185,14 +105328,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 710923064}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1695344038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107381,14 +105517,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 2135516688}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1696766844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107622,14 +105751,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1551748447}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1698761031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107978,14 +106100,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 268143354}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1707359252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108108,14 +106223,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1190464671}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1707395901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108540,14 +106648,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1658322358}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1720517778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109017,14 +107118,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1563680812}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1727241892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109554,14 +107648,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 755363435}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1730867509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110042,14 +108129,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1892237336}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1747415999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110249,14 +108329,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1819105777}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1748222959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110379,14 +108452,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1402180162}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1750112345
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111045,14 +109111,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 2114222321}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1758072191
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111485,14 +109544,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 383477891}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1765747605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111789,14 +109841,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 249468066}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1768313439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -112866,14 +110911,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 528213475}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1790039542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113185,14 +111223,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 989668104}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1791786480
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113436,14 +111467,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 379166842}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1798436293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113825,14 +111849,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 977045762}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1810779030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114129,14 +112146,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1820293127}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1817574787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114336,14 +112346,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1346891461}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1818827329
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114851,14 +112854,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 835158792}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1832222102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114981,14 +112977,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 285634582}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1833593121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115204,14 +113193,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 315811549}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1838397634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115691,14 +113673,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 452733587}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1843811203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116065,14 +114040,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 30746900}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1847667850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116497,14 +114465,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 440272879}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1854495371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116949,14 +114910,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 253375713}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1863706442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117672,14 +115626,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 30086156}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1869122988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117802,14 +115749,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1352015158}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1872119111
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118454,14 +116394,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 715510022}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1890688281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119006,14 +116939,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1721256105}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1899337311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119423,14 +117349,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 2096069223}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1906486913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119553,14 +117472,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 589170701}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1907253169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -120845,14 +118757,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1401305846}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1936687861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -121167,14 +119072,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 130330637}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1940518959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -121328,14 +119226,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 972072369}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1947064584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -121845,128 +119736,6 @@ Transform:
   m_Father: {fileID: 777278901}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!1001 &1956304725
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 207790383}
-    m_Modifications:
-    - target: {fileID: 8087395428567970754, guid: 5cac4980900e31d48a56610f92ce689f, type: 3}
-      propertyPath: kind
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8087395428567970754, guid: 5cac4980900e31d48a56610f92ce689f, type: 3}
-      propertyPath: panelId
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 8087395428567970754, guid: 5cac4980900e31d48a56610f92ce689f, type: 3}
-      propertyPath: rewardAmount
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 8087395428567970755, guid: 5cac4980900e31d48a56610f92ce689f, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8087395428567970755, guid: 5cac4980900e31d48a56610f92ce689f, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8087395428567970755, guid: 5cac4980900e31d48a56610f92ce689f, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8087395428567970755, guid: 5cac4980900e31d48a56610f92ce689f, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8087395428567970755, guid: 5cac4980900e31d48a56610f92ce689f, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8087395428567970755, guid: 5cac4980900e31d48a56610f92ce689f, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8087395428567970755, guid: 5cac4980900e31d48a56610f92ce689f, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8087395428567970755, guid: 5cac4980900e31d48a56610f92ce689f, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8087395428567970755, guid: 5cac4980900e31d48a56610f92ce689f, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8087395428567970755, guid: 5cac4980900e31d48a56610f92ce689f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8087395428567970755, guid: 5cac4980900e31d48a56610f92ce689f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8087395428567970755, guid: 5cac4980900e31d48a56610f92ce689f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8087395428567970755, guid: 5cac4980900e31d48a56610f92ce689f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8087395428567970755, guid: 5cac4980900e31d48a56610f92ce689f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8087395428567970755, guid: 5cac4980900e31d48a56610f92ce689f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8087395428567970755, guid: 5cac4980900e31d48a56610f92ce689f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8087395428567970755, guid: 5cac4980900e31d48a56610f92ce689f, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8087395428567970755, guid: 5cac4980900e31d48a56610f92ce689f, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8087395428567970755, guid: 5cac4980900e31d48a56610f92ce689f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8087395428567970755, guid: 5cac4980900e31d48a56610f92ce689f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8087395428567970755, guid: 5cac4980900e31d48a56610f92ce689f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8087395428567970756, guid: 5cac4980900e31d48a56610f92ce689f, type: 3}
-      propertyPath: m_Name
-      value: FreeCurrencyOfferPanel - Gem
-      objectReference: {fileID: 0}
-    - target: {fileID: 8087395429137577064, guid: 5cac4980900e31d48a56610f92ce689f, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 6fa53b0b665c0eb41940942522378454, type: 3}
-    - target: {fileID: 8087395429548864479, guid: 5cac4980900e31d48a56610f92ce689f, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5cac4980900e31d48a56610f92ce689f, type: 3}
---- !u!224 &1956304726 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 8087395428567970755, guid: 5cac4980900e31d48a56610f92ce689f, type: 3}
-  m_PrefabInstance: {fileID: 1956304725}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1960420047
 GameObject:
   m_ObjectHideFlags: 0
@@ -122028,14 +119797,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 2022767884}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1960420050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -122331,14 +120093,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 443930829}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1966842490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -123317,14 +121072,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 636468543}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1978239344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -123861,14 +121609,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 225202103}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1989850303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -124127,14 +121868,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 270677445}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1993354578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -124257,14 +121991,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1842892366}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &1993444255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -124388,7 +122115,7 @@ RectTransform:
   m_Children:
   - {fileID: 2019153195}
   m_Father: {fileID: 956721675}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -125759,14 +123486,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 22650373}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &2010276615
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128025,14 +125745,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 967064949}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &2049579473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129118,14 +126831,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1917072246}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &2070392920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129248,14 +126954,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1922823633}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &2072335606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129378,14 +127077,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1154409046}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &2072825442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129682,14 +127374,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 614113542}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &2075783013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130183,14 +127868,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1564334817}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &2086903757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130313,14 +127991,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1538523638}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &2088019040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130696,14 +128367,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1650855317}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &2092282372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131171,14 +128835,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1757019436}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &2097980786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131301,14 +128958,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 225672920}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &2099424630
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131431,14 +129081,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 47870573}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &2099818463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131641,14 +129284,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1556616572}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &2100577430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132601,14 +130237,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 2052707099}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &2118098099
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133957,14 +131586,7 @@ MonoBehaviour:
   minRotateDistance: 0.05
   label: {fileID: 1482459730}
   displayText: "\u653E\u5728\u8FD9\u91CC"
-  textColorMode: 0
   solidColor: {r: 0, g: 0, b: 0, a: 1}
-  qualityTier: 0
-  qualityVisualLibrary: {fileID: 0}
-  useLocalMythicRainbowParameters: 0
-  mythicHueCyclesPerSecond: 0.25
-  mythicRainbowSaturation: 0.82
-  mythicRainbowValue: 1
 --- !u!114 &2143587105
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -44,11 +44,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 781f7fda548e98445b53f8357890a298, type: 2}
   - {fileID: 11400000, guid: 97bab38e6c7d49b429612d78a98b1536, type: 2}
   - {fileID: 11400000, guid: 66483163d84ae6d45b5c9882784606ba, type: 2}
-  - {fileID: 11400000, guid: c4b1b11ce912d2a48b6bf07a8e06aa65, type: 2}
-  - {fileID: 11400000, guid: d276053a6f9a3b94e9c09a47f65d94c5, type: 2}
-  - {fileID: 11400000, guid: 7564ca2aea646fd4da28854894a507fc, type: 2}
-  - {fileID: 11400000, guid: 8f6176ccfcd51584b8184de130b14a9a, type: 2}
-  - {fileID: 11400000, guid: 3347db84ef688684aa37aa209714a956, type: 2}
   - {fileID: 11400000, guid: 93f33ceedc609194aacc0495229361ce, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
@@ -96,12 +91,7 @@ MonoBehaviour:
   m_LabelTable:
     m_LabelNames:
     - default
-    - AnimalHospital
-    - DestroyCity
-    - Fishing
     - SupermarketOrganize
-    - Tower
-    - WormDodge
     - main
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
