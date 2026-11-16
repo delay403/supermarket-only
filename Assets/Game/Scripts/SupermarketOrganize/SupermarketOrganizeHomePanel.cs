@@ -161,6 +161,15 @@ namespace Game.SupermarketOrganize
 
         public void ShowOnSceneStart() => Open();
 
+        public void SetDifficultyLabelsVisible(bool visible)
+        {
+            if (difficultyButtons == null)
+                return;
+
+            for (var i = 0; i < difficultyButtons.Length; i++)
+                difficultyButtons[i]?.SetLabelsVisible(visible);
+        }
+
         void OnStaminaChanged()
         {
             RefreshStaminaDisplay();

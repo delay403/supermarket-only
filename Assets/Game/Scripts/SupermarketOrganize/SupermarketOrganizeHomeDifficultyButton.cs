@@ -85,5 +85,21 @@ namespace Game.SupermarketOrganize
             if (glowImage != null)
                 glowImage.enabled = selected;
         }
+
+        public void SetLabelsVisible(bool visible)
+        {
+            if (button == null)
+                return;
+
+            var graphics = button.GetComponentsInChildren<Graphic>(true);
+            for (var i = 0; i < graphics.Length; i++)
+            {
+                var graphic = graphics[i];
+                if (graphic == null || graphic.gameObject == button.gameObject)
+                    continue;
+
+                graphic.enabled = visible;
+            }
+        }
     }
 }

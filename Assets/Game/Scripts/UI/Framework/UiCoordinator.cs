@@ -68,6 +68,10 @@ namespace Game.UI.Framework
             UiCoordinator.Open(UiPanelId.SupermarketOrganizeSweepRobot);
         public static void OpenSupermarketOrganizeHome() =>
             UiCoordinator.Open(UiPanelId.SupermarketOrganizeHome);
+        public static void OpenSupermarketOrganizeStart() =>
+            UiCoordinator.Open(UiPanelId.SupermarketOrganizeStart);
+        public static void CloseSupermarketOrganizeStart() =>
+            UiCoordinator.Close(UiPanelId.SupermarketOrganizeStart);
         public static void OpenSupermarketOrganizeStamina() =>
             UiCoordinator.Open(UiPanelId.SupermarketOrganizeStamina);
         public static void OpenSupermarketOrganizeResult(SupermarketOrganizeResultViewModel model) =>
