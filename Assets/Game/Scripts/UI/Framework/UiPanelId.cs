@@ -10,5 +10,6 @@ namespace Game.UI.Framework
         SupermarketOrganizeHome = 35,
         SupermarketOrganizeStamina = 36,
         SupermarketOrganizeResult = 37,
+        SupermarketOrganizeStart = 38,
     }
 }

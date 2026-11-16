@@ -1,14 +1,16 @@
-#if UNITY_EDITOR
+﻿#if UNITY_EDITOR
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using Game.SupermarketOrganize;
 using Game.UI;
 using UnityEditor;
 using UnityEditor.Build;
 using UnityEditor.SceneManagement;
 using UnityEditor.U2D;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using UnityEngine.U2D;
 using UnityEngine.UI;
@@ -17,6 +19,7 @@ namespace Game.Editor
 {
     public static class SupermarketOnlyProjectValidator
     {
+        const string StartScenePath = "Assets/Game/Modes/SupermarketOrganize/Scenes/SupermarketOrganizeStartScene.unity";
         const string ScenePath = "Assets/Game/Modes/SupermarketOrganize/Scenes/SupermarketOrganizeScene.unity";
         const string SettingsPrefabPath = "Assets/Game/Core/Art/UI/Prefabs/Panel/SettingPanel.prefab";
         const string SettingsAtlasPath = "Assets/Game/Core/Art/UI/Main.spriteatlas";
@@ -68,7 +71,7 @@ namespace Game.Editor
 
         static readonly string[] AllowedScenes =
         {
-            "Assets/Game/Modes/SupermarketOrganize/Scenes/SupermarketOrganizeScene.unity",
+            ScenePath,
         };
 
         static readonly HashSet<string> AllowedGroups = new HashSet<string>(StringComparer.Ordinal)
@@ -104,8 +107,13 @@ namespace Game.Editor
             }
 
             var scenes = EditorBuildSettings.scenes.Where(x => x.enabled).Select(x => x.path).ToArray();
+            if (scenes.Any(x => string.Equals(x.Replace('\\', '/'), StartScenePath, StringComparison.Ordinal)))
+                errors.Add("Build Settings must not include a standalone SupermarketOrganizeStartScene.");
             if (!scenes.SequenceEqual(AllowedScenes))
-                errors.Add("Build Settings must contain only SupermarketOrganizeScene.");
+                errors.Add("Build Settings must enable only SupermarketOrganizeScene.");
+
+            if (File.Exists(StartScenePath))
+                errors.Add("Standalone start scene must be removed from the project: " + StartScenePath);
 
             foreach (var path in Directory.GetFiles(
                          "Assets/AddressableAssetsData/AssetGroups", "*.asset", SearchOption.TopDirectoryOnly))
@@ -119,6 +127,7 @@ namespace Game.Editor
             foreach (var root in scene.GetRootGameObjects())
                 CollectMissingScripts(root, errors);
 
+            ValidateStartOverlay(scene, errors);
             ValidateSettingsUi(scene, errors);
             ValidateSaveCompatibility(errors);
             if (errors.Count == 0)
@@ -131,6 +140,49 @@ namespace Game.Editor
             Debug.LogError(message);
             if (throwOnFailure)
                 throw new BuildFailedException(message);
+        }
+
+        static void ValidateStartOverlay(Scene scene, ICollection<string> errors)
+        {
+            var overlay = UnityEngine.Object.FindObjectOfType<SupermarketOrganizeStartOverlay>(true);
+            if (overlay == null)
+            {
+                errors.Add("Gameplay scene is missing SupermarketOrganizeStartOverlay.");
+                return;
+            }
+
+            var so = new SerializedObject(overlay);
+            RequireRef(so, "titleText", "title text", errors);
+            RequireRef(so, "startButton", "start button", errors);
+            RequireRef(so, "helpButton", "help button", errors);
+            RequireRef(so, "helpPopupRoot", "help popup", errors);
+            RequireRef(so, "helpCloseButton", "help close button", errors);
+            RequireRef(so, "helpMaskButton", "help mask button", errors);
+
+            var title = so.FindProperty("titleText")?.objectReferenceValue as Text;
+            if (title != null && title.text != "超市整理")
+                errors.Add("Start overlay title must be 超市整理.");
+
+            var startButton = so.FindProperty("startButton")?.objectReferenceValue as Button;
+            var startLabel = startButton != null ? startButton.GetComponentInChildren<Text>(true) : null;
+            if (startLabel != null && startLabel.text != "开始游戏")
+                errors.Add("Start overlay start button must be labeled 开始游戏.");
+
+            var helpButton = so.FindProperty("helpButton")?.objectReferenceValue as Button;
+            var helpLabel = helpButton != null ? helpButton.GetComponentInChildren<Text>(true) : null;
+            if (helpLabel != null && helpLabel.text != "操作说明")
+                errors.Add("Start overlay help button must be labeled 操作说明.");
+
+            var helpPopup = so.FindProperty("helpPopupRoot")?.objectReferenceValue as GameObject;
+            if (helpPopup != null && helpPopup.activeSelf)
+                errors.Add("Start overlay help popup must start closed.");
+        }
+
+        static void RequireRef(SerializedObject so, string field, string label, ICollection<string> errors)
+        {
+            var prop = so.FindProperty(field);
+            if (prop == null || prop.objectReferenceValue == null)
+                errors.Add("Start overlay must reference the " + label + ".");
         }
 
         static void CollectMissingScripts(GameObject root, ICollection<string> errors)

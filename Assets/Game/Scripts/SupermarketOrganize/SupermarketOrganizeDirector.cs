@@ -66,13 +66,24 @@ namespace Game.SupermarketOrganize
             BuildRuntimeGraph();
 
             var skipInGameHome = SupermarketOrganizeLaunchContext.ConsumeSkipInGameHomePage();
-            if (!skipInGameHome && useHomePageBeforeGameplay && TryShowHomePanel())
+            if (skipInGameHome)
+            {
+                HideStartOverlay();
+                HideInGameHomePanel();
+                BeginDeferredGameplay(ResolveDefaultDifficultyEntry());
+                return;
+            }
+
+            if (useHomePageBeforeGameplay && TryShowHomePanel())
+            {
+                TryShowStartOverlay();
+                return;
+            }
+
+            if (useHomePageBeforeGameplay && TryShowStartOverlay())
                 return;
 
-            if (skipInGameHome)
-                HideInGameHomePanel();
-
-            BeginDeferredGameplay(skipInGameHome ? ResolveDefaultDifficultyEntry() : null);
+            BeginDeferredGameplay(null);
         }
 
         public void ShowHome()
@@ -97,6 +108,7 @@ namespace Game.SupermarketOrganize
             _crosshair?.InvalidateZoneCache();
             ResolveDifficultyManager()?.HideAll();
             SetGameplayHudVisible(false);
+            HideStartOverlay();
             UiCoordinator.Close(UiPanelId.SupermarketOrganizeResult);
             UiRouter.OpenSupermarketOrganizeHome();
         }
@@ -139,6 +151,37 @@ namespace Game.SupermarketOrganize
             return FindFirstObjectByType<SupermarketOrganizeHomePanel>(FindObjectsInactive.Include);
 #else
             return FindObjectOfType<SupermarketOrganizeHomePanel>(true);
+#endif
+        }
+
+        bool TryShowStartOverlay()
+        {
+            var overlay = FindStartOverlay();
+            if (overlay == null)
+                return false;
+
+            SetGameplayHudVisible(false);
+            var home = FindInGameHomePanel();
+            home?.SetDifficultyLabelsVisible(false);
+            overlay.ShowOnSceneStart();
+            return true;
+        }
+
+        static void HideStartOverlay()
+        {
+            var overlay = FindStartOverlay();
+            if (overlay != null)
+                overlay.Close();
+
+            UiCoordinator.Close(UiPanelId.SupermarketOrganizeStart);
+        }
+
+        static SupermarketOrganizeStartOverlay FindStartOverlay()
+        {
+#if UNITY_2023_1_OR_NEWER
+            return FindFirstObjectByType<SupermarketOrganizeStartOverlay>(FindObjectsInactive.Include);
+#else
+            return FindObjectOfType<SupermarketOrganizeStartOverlay>(true);
 #endif
         }
 
