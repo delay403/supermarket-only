@@ -70,7 +70,6 @@ namespace Game.SupermarketOrganize
                 return;
 
             AudioGameplayFeedback.PlayUiButton();
-            UiRouter.OpenSupermarketOrganizeUpgrade();
         }
 
         void ResolveLockButtonReference()

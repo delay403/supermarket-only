@@ -25,6 +25,8 @@ namespace Game.SupermarketOrganize
         void OnEnable()
         {
             ApplyProductModeVisibility();
+            if (upgradeButton != null)
+                upgradeButton.gameObject.SetActive(false);
             EnsureCrosshair();
             BindService();
             upgradeButton?.onClick.AddListener(OnUpgradeClicked);
@@ -52,6 +54,8 @@ namespace Game.SupermarketOrganize
         public void RefreshAll()
         {
             ApplyProductModeVisibility();
+            if (upgradeButton != null)
+                upgradeButton.gameObject.SetActive(false);
             EnsureCrosshair();
             BindService();
             RefreshCounts();
@@ -166,7 +170,6 @@ namespace Game.SupermarketOrganize
 
         void OnUpgradeClicked()
         {
-            UiRouter.OpenSupermarketOrganizeUpgrade();
         }
 
         void OnSweepRobotClicked()

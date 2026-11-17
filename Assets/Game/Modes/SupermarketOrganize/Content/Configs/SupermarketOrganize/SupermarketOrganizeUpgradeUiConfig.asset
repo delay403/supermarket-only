@@ -14,6 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillIconBackground: {fileID: 21300000, guid: 872df160031af0d45b1d8817e3cc1287, type: 3}
   attributeIconBackground: {fileID: 21300000, guid: 23d5f9345b9822f45bcd11e0a1820bd7, type: 3}
+  shopCardBackground: {fileID: 21300000, guid: 58dfed921161fd24fb03163d4bfb5a25, type: 3}
+  shopTabButtonSprite: {fileID: 21300000, guid: c31a2d4afe068ba4ea5db4c6cac6aeae, type: 3}
+  shopBuyButtonSprite: {fileID: 21300000, guid: c31a2d4afe068ba4ea5db4c6cac6aeae, type: 3}
+  coinFrameSprite: {fileID: 21300000, guid: c92fd037f3f7fe643a97927d7610bf44, type: 3}
+  coinIconSprite: {fileID: 21300000, guid: c6d6381143e050743bea46ee83179c8f, type: 3}
   entries:
   - kind: 0
     skillId: 0
