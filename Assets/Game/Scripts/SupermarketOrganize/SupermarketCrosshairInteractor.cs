@@ -458,23 +458,13 @@ namespace Game.SupermarketOrganize
 #if UNITY_EDITOR
         void PollEditorDebugInput()
         {
-            if (Input.GetKeyDown(KeyCode.Q))
-            {
-                TryDebugPlaceAllItems();
+            if (!Input.GetKeyDown(KeyCode.E))
                 return;
-            }
 
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
                 TryDebugFillAimedShelf();
-        }
-
-        void TryDebugPlaceAllItems()
-        {
-            if (service == null)
-                return;
-
-            service.DebugPlaceAllItemsOnShelves();
-            ForceRefreshShelfPresentation();
+            else
+                TryInteractFromPointer();
         }
 
         void TryDebugFillAimedShelf()
@@ -484,13 +474,13 @@ namespace Game.SupermarketOrganize
 
             if (_aimZone == null)
             {
-                Debug.Log("[SupermarketDebug] E：请先对准一个货架。");
+                Debug.Log("[SupermarketDebug] Shift+E：请先对准一个货架。");
                 return;
             }
 
             var placed = service.DebugFillShelf(_aimZone);
             Debug.Log(
-                $"[SupermarketDebug] E：已向货架「{_aimZone.TargetItemId}」填充 {placed} 个物品" +
+                $"[SupermarketDebug] Shift+E：已向货架「{_aimZone.TargetItemId}」填充 {placed} 个物品" +
                 $"（{ _aimZone.PlacedCount }/{ _aimZone.Capacity }）。");
             ForceRefreshShelfPresentation();
         }
@@ -506,6 +496,9 @@ namespace Game.SupermarketOrganize
 
         static bool IsBlockedByUi(Vector2 screenPos)
         {
+            if (Cursor.lockState == CursorLockMode.Locked)
+                return false;
+
             if (EventSystem.current == null)
                 return false;
 
@@ -515,8 +508,26 @@ namespace Game.SupermarketOrganize
             for (var i = 0; i < UiRaycastBuffer.Count; i++)
             {
                 var result = UiRaycastBuffer[i];
+                if (IsTouchJoystickUi(result.gameObject))
+                    continue;
+
                 if (result.gameObject.GetComponentInParent<Selectable>() != null)
                     return true;
+            }
+
+            return false;
+        }
+
+        static bool IsTouchJoystickUi(GameObject hit)
+        {
+            var current = hit != null ? hit.transform : null;
+            while (current != null)
+            {
+                var n = current.name;
+                if (n == "InputPanel" || n == "JoystickR" || n == "JoystickL")
+                    return true;
+
+                current = current.parent;
             }
 
             return false;

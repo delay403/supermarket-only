@@ -56,6 +56,8 @@ namespace Game.SupermarketOrganize
         {
             Instance = this;
             config ??= SupermarketOrganizeConfig.ResolveRuntime();
+            if (GetComponent<SupermarketOrganizeCursorLock>() == null)
+                gameObject.AddComponent<SupermarketOrganizeCursorLock>();
         }
 
         void Start()

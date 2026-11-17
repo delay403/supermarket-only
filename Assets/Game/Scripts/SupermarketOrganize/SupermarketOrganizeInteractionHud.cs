@@ -23,10 +23,11 @@ namespace Game.SupermarketOrganize
         {
             interactButton?.onClick.AddListener(OnInteractClicked);
             switchItemButton?.onClick.AddListener(OnSwitchItemClicked);
+            HideOnScreenActionButtons();
         }
 
-        void OnEnable() => BindService();
 
+        void OnEnable() => BindService();
         void OnDisable() => UnbindService();
 
         void OnDestroy()
@@ -96,12 +97,23 @@ namespace Game.SupermarketOrganize
             if (_service == null)
                 BindService();
 
-            if (_interactor != null)
+            if (_interactor == null)
+            {
+                _interactor = FindObjectOfType<SupermarketCrosshairInteractor>();
+                if (_interactor != null)
+                    BindInteractor(_interactor);
+            }
+
+            if (!Input.GetKeyDown(KeyCode.F))
                 return;
 
-            _interactor = FindObjectOfType<SupermarketCrosshairInteractor>();
-            if (_interactor != null)
-                BindInteractor(_interactor);
+            if (SupermarketOrganizeCursorLock.IsSettingsVisible())
+                return;
+
+            if (!SupermarketOrganizeCursorLock.IsChallengeRunning())
+                return;
+
+            OnSwitchItemClicked();
         }
 
         void OnInteractClicked()
@@ -165,17 +177,7 @@ namespace Game.SupermarketOrganize
             crosshairUi?.ApplyAimState(state);
             aimHintUi?.ApplyAimState(state);
 
-            var showInteract = state.canPickUp || state.canPlace;
-            if (interactButton != null)
-                interactButton.gameObject.SetActive(showInteract);
-
-            if (interactButtonLabel != null)
-            {
-                if (state.canPlace)
-                    interactButtonLabel.text = string.IsNullOrWhiteSpace(state.placeLabel) ? "放置" : state.placeLabel;
-                else if (state.canPickUp)
-                    interactButtonLabel.text = string.IsNullOrWhiteSpace(state.pickUpLabel) ? "拾取" : state.pickUpLabel;
-            }
+            HideOnScreenActionButtons();
 
             if (shelfFeedbackUi != null)
             {
@@ -191,14 +193,16 @@ namespace Game.SupermarketOrganize
 
         void RefreshSwitchButton()
         {
-            if (switchItemButton == null)
-                return;
+            HideOnScreenActionButtons();
+        }
 
-            var director = SupermarketOrganizeDirector.Instance
-                           ?? FindObjectOfType<SupermarketOrganizeDirector>();
-            var count = director?.Service?.HandleZone?.Count ?? 0;
-            switchItemButton.gameObject.SetActive(count > 1);
-            switchItemButton.interactable = count > 1;
+        void HideOnScreenActionButtons()
+        {
+            if (interactButton != null)
+                interactButton.gameObject.SetActive(false);
+
+            if (switchItemButton != null)
+                switchItemButton.gameObject.SetActive(false);
         }
 
         void RefreshHeldItemName(SupermarketItem item)
