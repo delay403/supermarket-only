@@ -63298,7 +63298,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1002613767
 RectTransform:
   m_ObjectHideFlags: 0
@@ -125466,7 +125466,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b4d52dbde2437d428f9e046e4a83a0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sectionRoot: {fileID: 2024053445}
+  sectionRoot: {fileID: 1002613766}
   skillSlots:
   - {fileID: 125830704}
   - {fileID: 432732523}
