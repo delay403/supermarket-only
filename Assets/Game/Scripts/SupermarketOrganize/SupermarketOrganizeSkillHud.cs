@@ -30,6 +30,28 @@ namespace Game.SupermarketOrganize
         void Update()
         {
             RefreshCooldowns();
+            TryHandleHotkeys();
+        }
+
+        void TryHandleHotkeys()
+        {
+            if (_controller == null || skillSlots == null)
+                return;
+
+            if (SupermarketOrganizeCursorLock.IsSettingsVisible())
+                return;
+
+            if (!SupermarketOrganizeCursorLock.IsChallengeRunning())
+                return;
+
+            for (var i = 0; i < skillSlots.Length && i < 4; i++)
+            {
+                if (!Input.GetKeyDown(KeyCode.Alpha1 + i))
+                    continue;
+
+                if (skillSlots[i] != null)
+                    skillSlots[i].UseFromHotkey();
+            }
         }
 
         public void Bind(SupermarketOrganizeSkillController controller)
@@ -68,8 +90,11 @@ namespace Game.SupermarketOrganize
 
             for (var i = 0; i < skillSlots.Length; i++)
             {
-                if (skillSlots[i] != null)
-                    skillSlots[i].Bind(_controller);
+                if (skillSlots[i] == null)
+                    continue;
+
+                skillSlots[i].SetHotkeyNumber(i + 1);
+                skillSlots[i].Bind(_controller);
             }
         }
 
@@ -86,6 +111,7 @@ namespace Game.SupermarketOrganize
                 if (skillSlots[i] == null)
                     continue;
 
+                skillSlots[i].SetHotkeyNumber(i + 1);
                 skillSlots[i].RefreshVisual();
             }
         }

@@ -15,8 +15,10 @@ namespace Game.SupermarketOrganize
         [SerializeField] private Text cooldownText;
         [SerializeField] private GameObject lockedRoot;
         [SerializeField] private Button lockButton;
+        [SerializeField] private Text hotkeyText;
 
         SupermarketOrganizeSkillController _controller;
+        int _hotkeyNumber;
 
         public SupermarketSkillId SkillId => skillId;
 
@@ -62,6 +64,68 @@ namespace Game.SupermarketOrganize
         void OnUseClicked()
         {
             _controller?.TryUseSkill(skillId);
+        }
+
+        public void UseFromHotkey()
+        {
+            _controller?.TryUseSkill(skillId);
+        }
+
+        public void SetHotkeyNumber(int number)
+        {
+            _hotkeyNumber = number;
+            EnsureHotkeyLabel();
+        }
+
+        void EnsureHotkeyLabel()
+        {
+            if (_hotkeyNumber <= 0)
+                return;
+
+            if (hotkeyText == null)
+            {
+                var existing = transform.Find("HotkeyLabel");
+                if (existing != null)
+                    hotkeyText = existing.GetComponent<Text>();
+                if (hotkeyText == null)
+                    hotkeyText = CreateHotkeyLabel();
+            }
+
+            if (hotkeyText != null)
+                hotkeyText.text = _hotkeyNumber.ToString();
+        }
+
+        Text CreateHotkeyLabel()
+        {
+            var go = new GameObject("HotkeyLabel", typeof(RectTransform), typeof(CanvasRenderer), typeof(Text));
+            go.transform.SetParent(transform, false);
+            go.transform.SetAsLastSibling();
+
+            var rect = go.GetComponent<RectTransform>();
+            rect.anchorMin = new Vector2(0f, 1f);
+            rect.anchorMax = new Vector2(0f, 1f);
+            rect.pivot = new Vector2(0f, 1f);
+            rect.anchoredPosition = new Vector2(3f, -2f);
+            rect.sizeDelta = new Vector2(24f, 22f);
+
+            var text = go.GetComponent<Text>();
+            var font = Resources.Load<Font>("喜脉体");
+            if (font == null)
+                font = Resources.GetBuiltinResource<Font>("Arial.ttf");
+            text.font = font;
+            text.fontSize = 18;
+            text.fontStyle = FontStyle.Bold;
+            text.alignment = TextAnchor.UpperLeft;
+            text.color = Color.white;
+            text.horizontalOverflow = HorizontalWrapMode.Overflow;
+            text.verticalOverflow = VerticalWrapMode.Overflow;
+            text.raycastTarget = false;
+            text.supportRichText = false;
+
+            var outline = go.AddComponent<UnityEngine.UI.Outline>();
+            outline.effectColor = new Color(0f, 0f, 0f, 0.85f);
+            outline.effectDistance = new Vector2(1f, -1f);
+            return text;
         }
 
         void OnLockClicked()
