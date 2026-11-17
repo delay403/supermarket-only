@@ -39,6 +39,14 @@ namespace Game.SupermarketOrganize.Config
         [Tooltip("「强化道具」区属性格子的默认底图。")]
         public Sprite attributeIconBackground;
 
+        [Header("局外商店弹窗")]
+        public Sprite shopCardBackground;
+        public Sprite shopTabButtonSprite;
+        public Sprite shopBuyButtonSprite;
+        public Sprite coinFrameSprite;
+        public Sprite coinIconSprite;
+
+
         public SupermarketOrganizeUpgradeEntryDef[] entries = Array.Empty<SupermarketOrganizeUpgradeEntryDef>();
 
         public Sprite ResolveCellBackground(SupermarketOrganizeUpgradeEntryDef entry)
@@ -56,6 +64,22 @@ namespace Game.SupermarketOrganize.Config
                 _ => null,
             };
         }
+
+        public Sprite ResolveShopCardBackground(SupermarketOrganizeUpgradeEntryDef entry)
+        {
+            if (entry == null)
+                return shopCardBackground;
+
+            if (entry.background != null)
+                return entry.background;
+
+            if (shopCardBackground != null)
+                return shopCardBackground;
+
+            return ResolveCellBackground(entry);
+        }
+
+
 
         public static SupermarketOrganizeUpgradeUiConfig ResolveRuntime()
         {

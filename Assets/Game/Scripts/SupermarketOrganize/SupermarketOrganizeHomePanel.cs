@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
 using Game.Audio;
+using Game.Economy;
+using Game.Save;
 using Game.SupermarketOrganize.Config;
 using Game.UI.Framework;
 using UnityEngine;
@@ -28,12 +30,17 @@ namespace Game.SupermarketOrganize
         [Tooltip("进场动画默认时长；条目未配置时使用。")]
         [SerializeField] private float defaultEntryAnimationSeconds = 3f;
 
+        [SerializeField] private GameObject shopEntranceRoot;
+        [SerializeField] private Button shopButton;
+        [SerializeField] private Text coinText;
+
         readonly List<SupermarketOrganizeHomeDifficultyButton> _buttons = new List<SupermarketOrganizeHomeDifficultyButton>();
         SupermarketOrganizeHomeDifficultyButton _selectedButton;
         bool _entryPlaying;
         float _nextStaminaTick;
         Vector2 _characterStartAnchoredPosition;
         bool _characterStartCaptured;
+        bool _shopEntranceAllowed;
 
         public UiPanelId PanelId => UiPanelId.SupermarketOrganizeHome;
 
@@ -46,6 +53,7 @@ namespace Game.SupermarketOrganize
             detailMaskButton?.onClick.AddListener(CloseDetailPopup);
             detailPopup?.Bind(OnStartGameClicked, CloseDetailPopup);
             staminaAddButton?.onClick.AddListener(OnStaminaAddClicked);
+            shopButton?.onClick.AddListener(OnShopClicked);
             if (root != null)
                 root.SetActive(true);
         }
@@ -117,6 +125,8 @@ namespace Game.SupermarketOrganize
         {
             UiCoordinator.Register(this);
             SupermarketOrganizeStaminaService.Changed += OnStaminaChanged;
+            EconomyDisplayEvents.Changed += RefreshCoinDisplay;
+            SupermarketOrganizeUpgradePanel.Closed += OnShopClosed;
             BindSceneButtons();
             RefreshStaminaDisplay();
             CloseDetailPopup();
@@ -126,6 +136,8 @@ namespace Game.SupermarketOrganize
         void OnDisable()
         {
             SupermarketOrganizeStaminaService.Changed -= OnStaminaChanged;
+            EconomyDisplayEvents.Changed -= RefreshCoinDisplay;
+            SupermarketOrganizeUpgradePanel.Closed -= OnShopClosed;
             UiCoordinator.Unregister(this);
             RestoreAllButtonLayers();
         }
@@ -148,6 +160,8 @@ namespace Game.SupermarketOrganize
             RefreshStaminaDisplay();
             CloseDetailPopup();
             SetHomeInteractable(true);
+            SetShopEntranceVisible(true);
+            RefreshCoinDisplay();
             CaptureCharacterStartPosition();
             if (entryCharacterRect != null)
                 entryCharacterRect.gameObject.SetActive(false);
@@ -155,6 +169,7 @@ namespace Game.SupermarketOrganize
 
         public void Close()
         {
+            UiRouter.CloseSupermarketOrganizeUpgrade();
             if (root != null)
                 root.SetActive(false);
         }
@@ -163,6 +178,7 @@ namespace Game.SupermarketOrganize
 
         public void SetDifficultyLabelsVisible(bool visible)
         {
+            SetShopEntranceVisible(visible);
             if (difficultyButtons == null)
                 return;
 
@@ -443,6 +459,72 @@ namespace Game.SupermarketOrganize
 
             if (staminaAddButton != null)
                 staminaAddButton.gameObject.SetActive(enabled);
+        }
+
+        public static bool CanOpenOutOfRunShop()
+        {
+            var home = FindHomePanel();
+            return home != null && home.IsShopAvailable();
+        }
+
+        bool IsShopAvailable()
+        {
+            return root != null && root.activeInHierarchy && _shopEntranceAllowed && !_entryPlaying;
+        }
+
+        void SetShopEntranceVisible(bool visible)
+        {
+            _shopEntranceAllowed = visible;
+            if (shopEntranceRoot != null)
+                shopEntranceRoot.SetActive(visible);
+            else if (shopButton != null)
+                shopButton.gameObject.SetActive(visible);
+
+            if (visible)
+                RefreshCoinDisplay();
+        }
+
+        void OnShopClicked()
+        {
+            if (!IsShopAvailable())
+                return;
+
+            CloseDetailPopup();
+            AudioGameplayFeedback.PlayUiButton();
+            SetHomeInteractable(false);
+            EnsureOutOfRunShopRegistered();
+            UiRouter.OpenSupermarketOrganizeUpgrade();
+        }
+
+        static void EnsureOutOfRunShopRegistered()
+        {
+            if (UiCoordinator.TryGet(UiPanelId.SupermarketOrganizeUpgrade, out _))
+                return;
+
+            var panel = FindObjectOfType<SupermarketOrganizeUpgradePanel>(true);
+            if (panel != null)
+                panel.gameObject.SetActive(true);
+        }
+
+        void OnShopClosed()
+        {
+            if (root != null && root.activeInHierarchy && !_entryPlaying)
+                SetHomeInteractable(true);
+        }
+
+        void RefreshCoinDisplay()
+        {
+            if (coinText != null)
+                coinText.text = EconomyDisplayFormat.Format(ModeSaveAccess.Coins);
+        }
+
+        static SupermarketOrganizeHomePanel FindHomePanel()
+        {
+#if UNITY_2023_1_OR_NEWER
+            return FindFirstObjectByType<SupermarketOrganizeHomePanel>(FindObjectsInactive.Include);
+#else
+            return FindObjectOfType<SupermarketOrganizeHomePanel>(true);
+#endif
         }
 
         void SetHomeInteractable(bool interactable)

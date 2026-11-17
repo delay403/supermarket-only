@@ -64,6 +64,8 @@ namespace Game.UI.Framework
         public static void OpenFreeCoinsOffer() => OpenCoinsHub();
         public static void OpenSupermarketOrganizeUpgrade() =>
             UiCoordinator.Open(UiPanelId.SupermarketOrganizeUpgrade);
+        public static void CloseSupermarketOrganizeUpgrade() =>
+            UiCoordinator.Close(UiPanelId.SupermarketOrganizeUpgrade);
         public static void OpenSupermarketOrganizeSweepRobot() =>
             UiCoordinator.Open(UiPanelId.SupermarketOrganizeSweepRobot);
         public static void OpenSupermarketOrganizeHome() =>

@@ -1,3 +1,5 @@
+using Game.SupermarketOrganize.Config;
+
 namespace Game.SupermarketOrganize
 {
     public static class SupermarketOrganizeProgressionDisplayNames
@@ -40,6 +42,25 @@ namespace Game.SupermarketOrganize
         {
             var cd = SupermarketOrganizeProgressionService.GetSkillCooldownSeconds(skillId, level);
             return $"冷却 {cd:0.#} 秒";
+        }
+
+        public static string FormatSkillNextEffect(SupermarketSkillId skillId, int level)
+        {
+            var config = SupermarketOrganizeProgressionConfig.ResolveRuntime();
+            return skillId switch
+            {
+                SupermarketSkillId.Scanner => $"持续时间 {config.scannerHighlightDurationSeconds:0.#} 秒",
+                SupermarketSkillId.Magnet => $"作用半径 {config.magnetPullRadius:0.#} 米",
+                SupermarketSkillId.XRay => $"提示时间 {config.xRayTipDurationSeconds:0.#} 秒",
+                SupermarketSkillId.AutoStocker => "自动上架手提区商品",
+                _ => string.Empty,
+            };
+        }
+
+        public static string FormatSkillNextCooldown(SupermarketSkillId skillId, int level)
+        {
+            var cd = SupermarketOrganizeProgressionService.GetSkillCooldownSeconds(skillId, level);
+            return $"{cd:0.#} 秒";
         }
 
         public static string FormatAttributeEffect(SupermarketAttributeId attributeId, int level)
