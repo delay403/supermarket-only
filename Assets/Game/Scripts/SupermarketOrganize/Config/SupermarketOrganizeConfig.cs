@@ -52,13 +52,13 @@ namespace Game.SupermarketOrganize.Config
         public float heldItemOutlineWidth = 4f;
 
         [Header("Economy")]
-        [Tooltip("每放置一个物品获得的金币。")]
+        [Tooltip("每成功上架一件商品计入的本局积分，结算时按 1:1 转为金币。")]
         [Min(0)]
-        public int coinsPerPlacedItem = 3;
+        public int coinsPerPlacedItem = 1;
 
-        [Tooltip("每收集齐一个货架的全部物品额外获得的金币。")]
+        [Tooltip("每成功放满一个货架额外计入的本局积分，结算时按 1:1 转为金币。")]
         [Min(0)]
-        public int coinsPerCompletedShelf = 30;
+        public int coinsPerCompletedShelf = 10;
 
         public Color shelfPlacePreviewColor = new Color(1f, 1f, 1f, 0.35f);
 

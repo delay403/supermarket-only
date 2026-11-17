@@ -26,6 +26,7 @@ MonoBehaviour:
     itemCountFormat: "\u5546\u54C1\uFF1A{0}\u4E2A"
     entryAnimationSeconds: 2
     displayOrder: 0
+    countdownSeconds: 240
   - id: "\u8D85\u7EA7\u5E02\u573A"
     previewImage: {fileID: 21300000, guid: ee50ad3a90ca2dc4aa670237894b232a, type: 3}
     staminaCost: 1
@@ -34,3 +35,4 @@ MonoBehaviour:
     itemCountFormat: "\u5546\u54C1\uFF1A{0}\u4E2A"
     entryAnimationSeconds: 2.5
     displayOrder: 1
+    countdownSeconds: 360

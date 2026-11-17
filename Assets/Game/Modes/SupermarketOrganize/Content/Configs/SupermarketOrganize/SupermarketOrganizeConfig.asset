@@ -31,8 +31,8 @@ MonoBehaviour:
   sameIdOutlineWidth: 10
   heldItemOutlineColor: {r: 0.25, g: 0.95, b: 0.45, a: 1}
   heldItemOutlineWidth: 8
-  coinsPerPlacedItem: 3
-  coinsPerCompletedShelf: 30
+  coinsPerPlacedItem: 1
+  coinsPerCompletedShelf: 10
   shelfPlacePreviewColor: {r: 0.14353323, g: 0.9150943, b: 0.07338022, a: 0.5686275}
   correctShelfTextColor: {r: 0.25, g: 0.95, b: 0.35, a: 1}
   wrongShelfTextColor: {r: 1, g: 0.28, b: 0.28, a: 1}

@@ -458,6 +458,12 @@ namespace Game.SupermarketOrganize
 #if UNITY_EDITOR
         void PollEditorDebugInput()
         {
+            if (Input.GetKeyDown(KeyCode.Q))
+            {
+                TryDebugPlaceAllItems();
+                return;
+            }
+
             if (!Input.GetKeyDown(KeyCode.E))
                 return;
 
@@ -465,6 +471,15 @@ namespace Game.SupermarketOrganize
                 TryDebugFillAimedShelf();
             else
                 TryInteractFromPointer();
+        }
+
+        void TryDebugPlaceAllItems()
+        {
+            if (service == null || !service.IsGameRunning)
+                return;
+
+            service.DebugPlaceAllItemsOnShelves();
+            ForceRefreshShelfPresentation();
         }
 
         void TryDebugFillAimedShelf()

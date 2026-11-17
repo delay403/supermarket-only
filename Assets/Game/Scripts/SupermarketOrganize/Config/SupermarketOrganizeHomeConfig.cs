@@ -17,6 +17,10 @@ namespace Game.SupermarketOrganize.Config
         public string itemCountFormat = "商品：{0}个";
         public float entryAnimationSeconds = 3f;
         public int displayOrder;
+
+        [Tooltip("该难度倒计时时长（秒）。")]
+        [Min(1)]
+        public int countdownSeconds = 240;
     }
 
     [CreateAssetMenu(
@@ -85,6 +89,7 @@ namespace Game.SupermarketOrganize.Config
                 itemCountFormat = "商品：{0}个",
                 entryAnimationSeconds = 3f,
                 displayOrder = 0,
+                countdownSeconds = 240,
             },
             new SupermarketOrganizeDifficultyEntryDef
             {
@@ -95,6 +100,7 @@ namespace Game.SupermarketOrganize.Config
                 itemCountFormat = "商品：{0}个",
                 entryAnimationSeconds = 3.5f,
                 displayOrder = 1,
+                countdownSeconds = 360,
             },
         };
     }

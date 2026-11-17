@@ -36,6 +36,7 @@ namespace Game.SupermarketOrganize
         bool _gameplayInitialized;
         bool _challengeStarted;
         Coroutine _deferredGameplayRoutine;
+        SupermarketOrganizeDifficultyEntryDef _activeEntry;
 
         static readonly HashSet<string> PreservedContainerChildNames = new HashSet<string>
         {
@@ -121,10 +122,22 @@ namespace Game.SupermarketOrganize
                 StopCoroutine(_deferredGameplayRoutine);
 
             if (_service != null)
+            {
                 _service.GameWon -= OnGameWon;
+                _service.GameEnded -= OnGameEnded;
+            }
 
             if (Instance == this)
                 Instance = null;
+        }
+
+        void Update()
+        {
+            if (_service == null)
+                return;
+
+            _service.TickCountdown(Time.unscaledDeltaTime);
+            _service.TickRunEnd();
         }
 
         bool TryShowHomePanel()
@@ -291,6 +304,8 @@ namespace Game.SupermarketOrganize
 
             _service.GameWon -= OnGameWon;
             _service.GameWon += OnGameWon;
+            _service.GameEnded -= OnGameEnded;
+            _service.GameEnded += OnGameEnded;
 
             _crosshair = player.GetComponent<SupermarketCrosshairInteractor>();
             if (_crosshair == null)
@@ -406,6 +421,7 @@ namespace Game.SupermarketOrganize
 
         void ApplySelectedDifficulty(SupermarketOrganizeDifficultyEntryDef entry)
         {
+            _activeEntry = entry;
             var manager = ResolveDifficultyManager();
             if (entry != null && !string.IsNullOrWhiteSpace(entry.id))
             {
@@ -415,6 +431,20 @@ namespace Game.SupermarketOrganize
             }
 
             manager?.HideAll();
+        }
+
+        public static int ResolveCountdownSeconds(SupermarketOrganizeDifficultyEntryDef entry)
+        {
+            if (entry != null && entry.countdownSeconds > 0)
+                return entry.countdownSeconds;
+
+            var id = entry != null ? entry.id : null;
+            if (!string.IsNullOrEmpty(id) &&
+                (id.IndexOf("超市", System.StringComparison.Ordinal) >= 0 ||
+                 id.IndexOf("supermarket", System.StringComparison.OrdinalIgnoreCase) >= 0))
+                return 360;
+
+            return 240;
         }
 
         SupermarketOrganizeDifficultyManager ResolveDifficultyManager()
@@ -504,6 +534,7 @@ namespace Game.SupermarketOrganize
         {
             if (_service == null || introController == null)
             {
+                _service?.PrepareCountdown(ResolveCountdownSeconds(_activeEntry));
                 _service?.BeginGameAfterIntro();
                 return;
             }
@@ -518,6 +549,7 @@ namespace Game.SupermarketOrganize
             if (introController != null)
                 introController.IntroFinished -= OnIntroFinished;
 
+            _service?.PrepareCountdown(ResolveCountdownSeconds(_activeEntry));
             _service?.BeginGameAfterIntro();
         }
 
@@ -541,6 +573,10 @@ namespace Game.SupermarketOrganize
 
         void OnGameWon()
         {
+        }
+
+        void OnGameEnded(SupermarketOrganizeRunEndReason reason)
+        {
             if (_service == null)
                 return;
 
@@ -550,6 +586,9 @@ namespace Game.SupermarketOrganize
                 TotalShelfCount = _service.TotalShelfCount,
                 PlacedItemCount = _service.PlacedItemCount,
                 TotalItemSlotCount = _service.TotalItemSlotCount,
+                RunScore = _service.RunScore,
+                CoinsGranted = _service.RunScore,
+                IsVictory = reason == SupermarketOrganizeRunEndReason.Victory,
             });
         }
     }

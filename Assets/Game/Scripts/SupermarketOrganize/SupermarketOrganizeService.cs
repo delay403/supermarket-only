@@ -5,6 +5,12 @@ using UnityEngine;
 
 namespace Game.SupermarketOrganize
 {
+    public enum SupermarketOrganizeRunEndReason
+    {
+        Victory,
+        TimeUp
+    }
+
     /// <summary>超市收纳核心玩法服务：拾取、放置、胜利判定。</summary>
     public sealed class SupermarketOrganizeService
     {
@@ -19,14 +25,28 @@ namespace Game.SupermarketOrganize
         bool _gameRunning;
         bool _introFinished = true;
         float _scannerHighlightUntil;
+        int _runScore;
+        bool _runSettled;
+        bool _runEnding;
+        bool _countdownActive;
+        float _countdownRemaining;
+        float _countdownDuration;
+        SupermarketOrganizeRunEndReason _endReason;
 
         public event Action GameStarted;
         public event Action GameWon;
+        public event Action<SupermarketOrganizeRunEndReason> GameEnded;
+        public event Action<int> RunScoreChanged;
+        public event Action CountdownChanged;
         public event Action<SupermarketItem> CurrentItemChanged;
         public event Action<int, int> HandleCountChanged;
         public event Action ProgressChanged;
 
         public bool IsGameRunning => _gameRunning && _introFinished;
+        public int RunScore => _runScore;
+        public bool IsRunSettled => _runSettled;
+        public bool IsRunEnding => _runEnding;
+        public float RemainingCountdownSeconds => Mathf.Max(0f, _countdownRemaining);
         public int RemainingGroundCount => _remainingGroundCount;
         public SupermarketHandleZone HandleZone => _handleZone;
         public SupermarketItem CurrentItem => _handleZone != null ? _handleZone.CurrentItem : null;
@@ -135,13 +155,28 @@ namespace Game.SupermarketOrganize
             }
         }
 
+        public void PrepareCountdown(float seconds)
+        {
+            _countdownDuration = Mathf.Max(0f, seconds);
+            _countdownRemaining = _countdownDuration;
+            _countdownActive = false;
+            CountdownChanged?.Invoke();
+        }
+
         public void BeginGameAfterIntro()
         {
             _introFinished = true;
             _gameRunning = true;
+            _runScore = 0;
+            _runSettled = false;
+            _runEnding = false;
+            _countdownActive = _countdownDuration > 0f;
+            _countdownRemaining = _countdownDuration;
             ApplyProgressionAttributes();
             RefreshSameIdHighlights();
             NotifyProgressChanged();
+            RunScoreChanged?.Invoke(_runScore);
+            CountdownChanged?.Invoke();
             GameStarted?.Invoke();
         }
 
@@ -153,14 +188,48 @@ namespace Game.SupermarketOrganize
 
         public void ResetForLobby()
         {
+            if (_runEnding && !_runSettled)
+                SettleRunScore();
+
             _gameRunning = false;
             _introFinished = true;
             _remainingGroundCount = 0;
             _scannerHighlightUntil = 0f;
+            _runScore = 0;
+            _runSettled = false;
+            _runEnding = false;
+            _countdownActive = false;
+            _countdownRemaining = 0f;
+            _countdownDuration = 0f;
             ClearRegisteredWorldContent();
             _handleZone?.ClearAll();
             _highlights?.SetSameIdHighlights(null);
             _highlights?.SetHeldItem(null);
+        }
+
+        public void TickCountdown(float unscaledDeltaTime)
+        {
+            if (!_countdownActive || _runEnding || !_gameRunning || !_introFinished)
+                return;
+
+            if (SupermarketOrganizeCursorLock.IsSettingsVisible())
+                return;
+
+            _countdownRemaining = Mathf.Max(0f, _countdownRemaining - Mathf.Max(0f, unscaledDeltaTime));
+            CountdownChanged?.Invoke();
+            if (_countdownRemaining <= 0f)
+                BeginEndRun(SupermarketOrganizeRunEndReason.TimeUp);
+        }
+
+        public void TickRunEnd()
+        {
+            if (!_runEnding || _runSettled)
+                return;
+
+            if (HasItemsInMotion())
+                return;
+
+            CompleteEndRun();
         }
 
         public void ClearRegisteredWorldContent()
@@ -708,14 +777,33 @@ namespace Game.SupermarketOrganize
 
             var perItem = Mathf.Max(0, _config.coinsPerPlacedItem);
             if (perItem > 0)
-                SupermarketOrganizeEconomyRewards.GrantCoins(perItem);
+                AddRunScore(perItem);
 
             if (shelfCompleted)
             {
                 var shelfBonus = Mathf.Max(0, _config.coinsPerCompletedShelf);
                 if (shelfBonus > 0)
-                    SupermarketOrganizeEconomyRewards.GrantCoins(shelfBonus);
+                    AddRunScore(shelfBonus);
             }
+        }
+
+        void AddRunScore(int amount)
+        {
+            if (amount <= 0 || _runSettled)
+                return;
+
+            _runScore += amount;
+            RunScoreChanged?.Invoke(_runScore);
+        }
+
+        void SettleRunScore()
+        {
+            if (_runSettled)
+                return;
+
+            _runSettled = true;
+            if (_runScore > 0)
+                SupermarketOrganizeEconomyRewards.GrantCoins(_runScore);
         }
 
         void RefreshSameIdHighlights()
@@ -741,22 +829,86 @@ namespace Game.SupermarketOrganize
 
         void CheckVictory()
         {
-            if (_remainingGroundCount > 0)
+            if (_runEnding || _runSettled)
                 return;
 
-            if (_handleZone.Count > 0)
+            if (!IsAllCleared())
                 return;
+
+            BeginEndRun(SupermarketOrganizeRunEndReason.Victory);
+        }
+
+        bool IsAllCleared()
+        {
+            if (_remainingGroundCount > 0)
+                return false;
+
+            if (_handleZone != null && _handleZone.Count > 0)
+                return false;
 
             if (TotalShelfCount > 0 && CompletedShelfCount < TotalShelfCount)
-                return;
+                return false;
 
             if (TotalItemSlotCount > 0 && PlacedItemCount < TotalItemSlotCount)
+                return false;
+
+            return true;
+        }
+
+        bool HasItemsInMotion()
+        {
+            foreach (var pair in _itemsById)
+            {
+                var list = pair.Value;
+                if (list == null)
+                    continue;
+
+                for (var i = 0; i < list.Count; i++)
+                {
+                    if (list[i] != null && list[i].State == SupermarketItemState.Moving)
+                        return true;
+                }
+            }
+
+            return false;
+        }
+
+        void BeginEndRun(SupermarketOrganizeRunEndReason reason)
+        {
+            if (_runEnding || _runSettled)
                 return;
 
+            _runEnding = true;
+            _endReason = reason;
             _gameRunning = false;
-            SupermarketOrganizePresentationFx.PlayVictory();
-            RecordVictory();
-            GameWon?.Invoke();
+            _countdownActive = false;
+            if (reason == SupermarketOrganizeRunEndReason.TimeUp)
+                _countdownRemaining = 0f;
+
+            CountdownChanged?.Invoke();
+
+            if (reason == SupermarketOrganizeRunEndReason.Victory)
+                SupermarketOrganizePresentationFx.PlayVictory();
+
+            if (!HasItemsInMotion())
+                CompleteEndRun();
+        }
+
+        void CompleteEndRun()
+        {
+            if (_runSettled)
+                return;
+
+            // 时间到后再落地的上架仍计分，但不能把失败改成通关。
+            SettleRunScore();
+
+            if (_endReason == SupermarketOrganizeRunEndReason.Victory)
+            {
+                RecordVictory();
+                GameWon?.Invoke();
+            }
+
+            GameEnded?.Invoke(_endReason);
         }
 
         static SupermarketItemMotion EnsureMotion(SupermarketItem item)
