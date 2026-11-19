@@ -31,6 +31,8 @@ namespace Game.SupermarketOrganize
 
         SupermarketItem _aimItem;
         SupermarketContainerZone _aimZone;
+        Collider _wasteBinTrigger;
+        bool _aimWasteBin;
         SupermarketAimState _aimState;
         SupermarketItem _lastSelectSfxItem;
         Vector2 _pointerStart;
@@ -67,6 +69,8 @@ namespace Game.SupermarketOrganize
         public void SetSkillController(SupermarketOrganizeSkillController skillController) =>
             _skillController = skillController;
 
+        public void SetWasteBinTrigger(Collider trigger) => _wasteBinTrigger = trigger;
+
         public void ApplyPickupRange(float distance) =>
             maxDistance = Mathf.Max(0.1f, distance);
 
@@ -89,8 +93,24 @@ namespace Game.SupermarketOrganize
 
         public bool TryPlace()
         {
-            if (service == null || !service.IsGameRunning || !_aimState.canPlace || _aimZone == null)
+            if (service == null || !service.IsGameRunning || !_aimState.canPlace)
                 return false;
+
+            if (_aimWasteBin)
+            {
+                if (_wasteBinTrigger != null)
+                    service.TryDiscardCurrentItem(_wasteBinTrigger.bounds.center);
+                return true;
+            }
+
+            if (_aimZone == null)
+                return false;
+
+            if (service.CurrentItem != null && service.CurrentItem.IsDefective)
+            {
+                service.TryPlaceOnShelf(_aimZone);
+                return true;
+            }
 
             if (!service.EvaluateShelf(_aimZone, out var isCorrect, out _) || !isCorrect)
             {
@@ -128,7 +148,8 @@ namespace Game.SupermarketOrganize
                     hitItem = candidate;
             }
 
-            if (Physics.Raycast(ray, out hit, maxDistance, shelfMask, QueryTriggerInteraction.Collide))
+            _aimWasteBin = CanAimAtWasteBin(ray);
+            if (!_aimWasteBin && Physics.Raycast(ray, out hit, maxDistance, shelfMask, QueryTriggerInteraction.Collide))
             {
                 var candidate = hit.collider.GetComponentInParent<SupermarketContainerZone>();
                 if (IsZoneInActiveGameplay(candidate))
@@ -162,6 +183,18 @@ namespace Game.SupermarketOrganize
                 shelfFeedback.ShowShelfMatch(nextState.shelfIsCorrect, nextState.showShelfExtraTip);
         }
 
+        bool CanAimAtWasteBin(Ray ray)
+        {
+            if (_wasteBinTrigger == null || !_wasteBinTrigger.enabled ||
+                !_wasteBinTrigger.gameObject.activeInHierarchy ||
+                !_wasteBinTrigger.Raycast(ray, out var binHit, maxDistance))
+                return false;
+
+            return !Physics.Raycast(ray, out var obstruction, binHit.distance,
+                Physics.DefaultRaycastLayers, QueryTriggerInteraction.Ignore) ||
+                obstruction.collider.gameObject == _wasteBinTrigger.gameObject;
+        }
+
         void RefreshShelfPresentation(SupermarketAimState state)
         {
             var zones = ResolveContainerZones();
@@ -175,7 +208,7 @@ namespace Game.SupermarketOrganize
                     continue;
 
                 var isAimZone = zone == _aimZone;
-                var idMatches = held != null && zone.MatchesItem(held.ItemId);
+                var idMatches = held != null && !held.IsDefective && zone.MatchesItem(held.ItemId);
                 zone.SetTipVisible((isAimZone && idMatches) || (xRayActive && idMatches));
 
                 if (isAimZone && state.canPlace && state.shelfIsCorrect)
@@ -292,7 +325,16 @@ namespace Game.SupermarketOrganize
                 state.hintText = "物品尚未落地，请稍候…";
             }
 
-            if (_aimZone != null && service.CurrentItem != null &&
+            var current = service.CurrentItem;
+            var holdingItem = current != null && current.State == SupermarketItemState.InHandle;
+            if (_aimWasteBin && holdingItem)
+            {
+                state.hasAimTarget = true;
+                state.canPlace = true;
+                state.placeLabel = "投入";
+                state.hintText = "瞄准：垃圾桶";
+            }
+            else if (_aimZone != null && holdingItem &&
                 service.EvaluateShelf(_aimZone, out var isCorrect, out var showTip))
             {
                 state.hasAimTarget = true;
@@ -327,8 +369,19 @@ namespace Game.SupermarketOrganize
                 }
             }
 
-            if (!state.hasAimTarget)
-                state.hintText = string.Empty;
+            if (holdingItem)
+            {
+                if (current.IsDefective && _aimZone != null)
+                    state.hintText = "商品不合格，请投入垃圾桶";
+                else if (string.IsNullOrEmpty(state.hintText) || _aimWasteBin || current.IsDefective)
+                    state.hintText = SupermarketOrganizeService.GetItemQualityHint(current);
+            }
+
+            if (!string.IsNullOrEmpty(service.QualityFeedback))
+            {
+                state.hintText = service.QualityFeedback;
+                state.useHintTextColor = false;
+            }
 
             return state;
         }

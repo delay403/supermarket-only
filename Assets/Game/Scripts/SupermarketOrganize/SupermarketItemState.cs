@@ -7,5 +7,6 @@ namespace Game.SupermarketOrganize
         InHandle = 2,
         OnShelf = 3,
         InRobotHandle = 4,
+        Discarded = 5,
     }
 }

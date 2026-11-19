@@ -80,7 +80,7 @@ namespace Game.SupermarketOrganize
             if (itemCountText != null)
             {
                 itemCountText.supportRichText = true;
-                itemCountText.text = $"已摆放商品：<color=#4BE06C>{vm.PlacedItemCount}</color>/{vm.TotalItemSlotCount}个";
+                itemCountText.text = $"正常上架：<color=#4BE06C>{vm.PlacedItemCount}</color> / {vm.TotalItemSlotCount}";
             }
 
             BindRunScore(vm);
@@ -94,8 +94,8 @@ namespace Game.SupermarketOrganize
 
             _runScoreText.supportRichText = true;
             _runScoreText.text =
-                $"本局获得积分：<color=#FFD76A>{vm.RunScore}</color>" +
-                $"\n转入金币：<color=#FFD76A>{vm.CoinsGranted}</color>";
+                $"残次处理：<color=#4BE06C>{vm.DefectiveItemsDiscarded}</color> / {vm.DefectiveItemTarget}" +
+                $"\n本局金币：<color=#FFD76A>{vm.CoinsGranted}</color>";
         }
 
         void EnsureRunScoreUi()

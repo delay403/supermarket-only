@@ -227,7 +227,9 @@ namespace Game.SupermarketOrganize
 
             currentHeldItemNameText.gameObject.SetActive(true);
             currentHeldItemNameText.text =
-                $"当前：{SupermarketItemDisplayNames.Resolve(current)}";
+                $"当前：{SupermarketItemDisplayNames.Resolve(current)}" +
+                (current.State != SupermarketItemState.InHandle ? string.Empty :
+                    current.IsDefective ? "（包装破损）" : "（正常）");
         }
     }
 }

@@ -19,7 +19,6 @@ namespace Game.SupermarketOrganize
         [SerializeField] private SupermarketCrosshairUi crosshairUi;
         [SerializeField] private SupermarketShelfFeedbackUi shelfFeedback;
         [SerializeField] private Text countdownText;
-        [SerializeField] private Sprite runScoreFrameSprite;
         [SerializeField] private Sprite runScoreIconSprite;
 
         SupermarketOrganizeService _service;
@@ -124,7 +123,11 @@ namespace Game.SupermarketOrganize
                 handleCountText.text = $"{current}/{max}";
         }
 
-        void OnProgressChanged() => RefreshProgressTexts();
+        void OnProgressChanged()
+        {
+            RefreshProgressTexts();
+            RefreshRunScore();
+        }
 
         void OnGameWon() => RefreshProgressTexts();
 
@@ -173,8 +176,13 @@ namespace Game.SupermarketOrganize
 
             var visible = _service != null && (_service.IsGameRunning || _service.IsRunEnding || _service.IsRunSettled);
             _runScoreRoot.SetActive(visible);
-            if (_runScoreText != null)
-                _runScoreText.text = $"积分 {(_service != null ? _service.RunScore : 0)}";
+            if (visible && _runScoreText != null)
+            {
+                _runScoreText.text = "<color=#A9F2DC>今日质检</color>\n" +
+                    $"正常上架：{_service.NormalItemsStocked} / {_service.NormalItemTarget}\n" +
+                    $"残次处理：{_service.DefectiveItemsDiscarded} / {_service.DefectiveItemTarget}\n" +
+                    $"本局金币：<color=#FFD76A>{_service.RunScore}</color>";
+            }
         }
 
         void EnsureRunScoreUi()
@@ -186,38 +194,29 @@ namespace Game.SupermarketOrganize
             if (parent == null)
                 return;
 
-            _runScoreRoot = new GameObject("RunScore", typeof(RectTransform), typeof(CanvasRenderer), typeof(Image));
+            _runScoreRoot = new GameObject("QualityInspection", typeof(RectTransform), typeof(CanvasRenderer), typeof(Image));
             var rootRt = _runScoreRoot.GetComponent<RectTransform>();
             rootRt.SetParent(parent, false);
             rootRt.anchorMin = new Vector2(0.5f, 1f);
             rootRt.anchorMax = new Vector2(0.5f, 1f);
-            rootRt.pivot = new Vector2(0.5f, 0.5f);
-            rootRt.anchoredPosition = new Vector2(280f, -87f);
-            rootRt.sizeDelta = new Vector2(220f, 48f);
+            rootRt.pivot = new Vector2(0.5f, 1f);
+            rootRt.anchoredPosition = new Vector2(280f, -62f);
+            rootRt.sizeDelta = new Vector2(224f, 124f);
 
             var frame = _runScoreRoot.GetComponent<Image>();
             frame.raycastTarget = false;
-            if (runScoreFrameSprite != null)
-            {
-                frame.sprite = runScoreFrameSprite;
-                frame.preserveAspect = false;
-                frame.color = Color.white;
-            }
-            else
-            {
-                frame.color = new Color(0.12f, 0.14f, 0.18f, 0.85f);
-            }
+            frame.color = new Color(0.06f, 0.17f, 0.17f, 0.91f);
 
             if (runScoreIconSprite != null)
             {
                 var iconGo = new GameObject("Icon", typeof(RectTransform), typeof(CanvasRenderer), typeof(Image));
                 var iconRt = iconGo.GetComponent<RectTransform>();
                 iconRt.SetParent(rootRt, false);
-                iconRt.anchorMin = new Vector2(0f, 0.5f);
-                iconRt.anchorMax = new Vector2(0f, 0.5f);
+                iconRt.anchorMin = Vector2.one;
+                iconRt.anchorMax = Vector2.one;
                 iconRt.pivot = new Vector2(0.5f, 0.5f);
-                iconRt.anchoredPosition = new Vector2(28f, 0f);
-                iconRt.sizeDelta = new Vector2(36f, 36f);
+                iconRt.anchoredPosition = new Vector2(-24f, -24f);
+                iconRt.sizeDelta = new Vector2(28f, 28f);
                 var icon = iconGo.GetComponent<Image>();
                 icon.sprite = runScoreIconSprite;
                 icon.preserveAspect = true;
@@ -229,13 +228,14 @@ namespace Game.SupermarketOrganize
             textRt.SetParent(rootRt, false);
             textRt.anchorMin = Vector2.zero;
             textRt.anchorMax = Vector2.one;
-            textRt.offsetMin = new Vector2(52f, 0f);
-            textRt.offsetMax = new Vector2(-10f, 0f);
+            textRt.offsetMin = new Vector2(14f, 8f);
+            textRt.offsetMax = new Vector2(-12f, -8f);
             _runScoreText = textGo.GetComponent<Text>();
             _runScoreText.font = countdownText != null && countdownText.font != null
                 ? countdownText.font
                 : Resources.Load<Font>("喜脉体");
-            _runScoreText.fontSize = 24;
+            _runScoreText.fontSize = 21;
+            _runScoreText.supportRichText = true;
             _runScoreText.alignment = TextAnchor.MiddleLeft;
             _runScoreText.color = new Color(0.95f, 0.96f, 0.9f, 1f);
             _runScoreText.raycastTarget = false;
@@ -244,7 +244,6 @@ namespace Game.SupermarketOrganize
             var outline = textGo.AddComponent<UnityEngine.UI.Outline>();
             outline.effectColor = Color.black;
             outline.effectDistance = new Vector2(1.5f, -1.5f);
-            _runScoreText.text = "积分 0";
         }
 
         void RefreshProgressTexts()
@@ -256,7 +255,7 @@ namespace Game.SupermarketOrganize
                 shelfProgressText.text = $"{_service.CompletedShelfCount}/{_service.TotalShelfCount}";
 
             if (itemProgressText != null)
-                itemProgressText.text = $"{_service.PlacedItemCount}/{_service.TotalItemSlotCount}";
+                itemProgressText.text = $"{_service.NormalItemsStocked}/{_service.NormalItemTarget}";
         }
 
         void RefreshSweepRobotRemaining()

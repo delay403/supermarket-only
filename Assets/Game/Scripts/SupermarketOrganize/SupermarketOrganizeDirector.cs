@@ -21,7 +21,11 @@ namespace Game.SupermarketOrganize
         [SerializeField] private SupermarketContainerZone[] containerZones;
         [SerializeField] private SupermarketOrganizeDifficultyManager difficultyManager;
         [SerializeField] private Transform playerHandleAnchor;
+        [SerializeField] private Transform wasteBinModel;
+        [SerializeField] private GameObject wasteBinInteractionPrefab;
         [SerializeField] private bool useHomePageBeforeGameplay = true;
+
+        Collider _wasteBinTrigger;
 
         SupermarketOrganizeService _service;
         SupermarketHandleZone _handleZone;
@@ -313,6 +317,7 @@ namespace Game.SupermarketOrganize
 
             var feedback = FindObjectOfType<SupermarketShelfFeedbackUi>(true);
             _crosshair.Configure(Camera.main, _service, _highlights, feedback, config);
+            _crosshair.SetWasteBinTrigger(EnsureWasteBinTrigger());
 
             _skillController = player.GetComponent<SupermarketOrganizeSkillController>();
             if (_skillController == null)
@@ -374,6 +379,31 @@ namespace Game.SupermarketOrganize
                 introController = GetComponent<SupermarketOrganizeIntroController>();
             if (introController == null)
                 introController = gameObject.AddComponent<SupermarketOrganizeIntroController>();
+        }
+
+        Collider EnsureWasteBinTrigger()
+        {
+            if (_wasteBinTrigger != null || wasteBinModel == null || wasteBinInteractionPrefab == null)
+                return _wasteBinTrigger;
+
+            var meshes = wasteBinModel.GetComponentsInChildren<MeshRenderer>();
+            if (meshes.Length == 0)
+                return null;
+
+            var bounds = meshes[0].bounds;
+            for (var i = 1; i < meshes.Length; i++)
+                bounds.Encapsulate(meshes[i].bounds);
+
+            var interaction = Instantiate(wasteBinInteractionPrefab, bounds.center, Quaternion.identity);
+            foreach (var box in interaction.GetComponents<BoxCollider>())
+            {
+                box.size = box.isTrigger ? bounds.size + Vector3.one * 0.12f : bounds.size;
+                if (box.isTrigger)
+                    _wasteBinTrigger = box;
+            }
+
+            interaction.transform.SetParent(wasteBinModel, true);
+            return _wasteBinTrigger;
         }
 
         void ScatterItems()
@@ -519,7 +549,8 @@ namespace Game.SupermarketOrganize
                 _service.RegisterZone(zone);
             }
 
-            var spawned = spawner != null ? spawner.SpawnAllItems(zoneList) : null;
+            var spawned = spawner != null ? spawner.SpawnAllItems(_service.RegisteredZones, _wasteBinTrigger != null &&
+                _wasteBinTrigger.gameObject.activeInHierarchy) : null;
             if (spawned != null)
             {
                 for (var i = 0; i < spawned.Count; i++)
@@ -584,8 +615,10 @@ namespace Game.SupermarketOrganize
             {
                 CompletedShelfCount = _service.CompletedShelfCount,
                 TotalShelfCount = _service.TotalShelfCount,
-                PlacedItemCount = _service.PlacedItemCount,
-                TotalItemSlotCount = _service.TotalItemSlotCount,
+                PlacedItemCount = _service.NormalItemsStocked,
+                TotalItemSlotCount = _service.NormalItemTarget,
+                DefectiveItemsDiscarded = _service.DefectiveItemsDiscarded,
+                DefectiveItemTarget = _service.DefectiveItemTarget,
                 RunScore = _service.RunScore,
                 CoinsGranted = _service.RunScore,
                 IsVictory = reason == SupermarketOrganizeRunEndReason.Victory,

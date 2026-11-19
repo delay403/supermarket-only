@@ -14948,6 +14948,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 6f1eff0d11ceab046983e55caedc72e3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a2f8eb291575a9498b1126f97d86ed2, type: 3}
+--- !u!4 &234133895 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2a2f8eb291575a9498b1126f97d86ed2, type: 3}
+  m_PrefabInstance: {fileID: 234133894}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &235516293
 GameObject:
   m_ObjectHideFlags: 0
@@ -63824,7 +63829,6 @@ MonoBehaviour:
   crosshairUi: {fileID: 934953770}
   shelfFeedback: {fileID: 0}
   countdownText: {fileID: 61590811}
-  runScoreFrameSprite: {fileID: 21300000, guid: 114620874e5c9e54bb2796ccdaf6575a, type: 3}
   runScoreIconSprite: {fileID: 21300000, guid: c6d6381143e050743bea46ee83179c8f, type: 3}
 --- !u!1 &1001668286
 GameObject:
@@ -74555,6 +74559,8 @@ MonoBehaviour:
   - {fileID: 1720942697}
   difficultyManager: {fileID: 1185284126}
   playerHandleAnchor: {fileID: 0}
+  wasteBinModel: {fileID: 234133895}
+  wasteBinInteractionPrefab: {fileID: 857100001, guid: 8021168db2f14b00999d73467cfcd80f, type: 3}
   useHomePageBeforeGameplay: 1
 --- !u!4 &1185284125
 Transform:

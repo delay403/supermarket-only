@@ -37,7 +37,8 @@ namespace Game.SupermarketOrganize
             }
         }
 
-        public IReadOnlyList<SupermarketItem> SpawnAllItems(IEnumerable<SupermarketContainerZone> containerZones = null)
+        public IReadOnlyList<SupermarketItem> SpawnAllItems(
+            IEnumerable<SupermarketContainerZone> containerZones = null, bool includeDefectiveItems = false)
         {
             ClearSpawnedItems();
             var result = new List<SupermarketItem>();
@@ -51,6 +52,7 @@ namespace Game.SupermarketOrganize
             var rng = new System.Random(config != null ? config.scatterSeed : 0);
             var root = itemsRoot != null ? itemsRoot : transform;
             var activeSpawnZones = ResolveSpawnZones();
+            var eligibleDefinitions = new List<SupermarketItemDef>();
 
             for (var i = 0; i < itemDatabase.items.Count; i++)
             {
@@ -61,27 +63,43 @@ namespace Game.SupermarketOrganize
                 if (!spawnCounts.TryGetValue(def.itemId, out var count) || count <= 0)
                     continue;
 
+                eligibleDefinitions.Add(def);
                 for (var n = 0; n < count; n++)
                 {
-                    var pos = SampleSpawnPosition(activeSpawnZones, rng);
-                    var rot = SampleSpawnRotation(config, rng);
+                    result.Add(SpawnItem(def, root, activeSpawnZones, rng, n + 1, false));
+                }
+            }
 
-                    var instance = Instantiate(def.worldPrefab, pos, rot, root);
-                    instance.name = $"{def.itemId}_{n + 1}";
-
-                    var item = instance.GetComponent<SupermarketItem>();
-                    if (item == null)
-                        item = instance.AddComponent<SupermarketItem>();
-                    item.Configure(def);
-                    item.ApplyShadowSetting(def.disableShadows);
-                    Physics.SyncTransforms();
-                    SetupPhysicsDrop(item, config, rng);
-                    result.Add(item);
-                    _spawnedItems.Add(item);
+            if (includeDefectiveItems && result.Count > 0)
+            {
+                var qualityRng = new System.Random(unchecked(Environment.TickCount ^ GetInstanceID()));
+                var defectiveCount = Mathf.Clamp(Mathf.RoundToInt(result.Count * 0.10f), 1, 8);
+                for (var i = 0; i < defectiveCount; i++)
+                {
+                    var def = eligibleDefinitions[qualityRng.Next(eligibleDefinitions.Count)];
+                    result.Add(SpawnItem(def, root, activeSpawnZones, qualityRng, result.Count + 1, true));
                 }
             }
 
             return result;
+        }
+
+        SupermarketItem SpawnItem(SupermarketItemDef def, Transform root,
+            IReadOnlyList<SupermarketItemSpawnZone> zones, System.Random rng, int index, bool defective)
+        {
+            var position = SampleSpawnPosition(zones, rng);
+            var rotation = SampleSpawnRotation(config, rng);
+            var instance = Instantiate(def.worldPrefab, position, rotation, root);
+            instance.name = $"{def.itemId}_{index}";
+            var item = instance.GetComponent<SupermarketItem>() ?? instance.AddComponent<SupermarketItem>();
+            item.Configure(def);
+            if (defective)
+                item.MarkDefective();
+            item.ApplyShadowSetting(def.disableShadows);
+            Physics.SyncTransforms();
+            SetupPhysicsDrop(item, config, rng);
+            _spawnedItems.Add(item);
+            return item;
         }
 
         public int RelocateGroundItems(IReadOnlyList<SupermarketItem> items, System.Random rng = null)

@@ -27,6 +27,9 @@ namespace Game.SupermarketOrganize
         public float HandleWidth => handleWidth;
         public Vector3 MultiHoldLocalRotationEuler => multiHoldLocalRotationEuler;
         public SupermarketItemState State => _state;
+        public bool IsDefective { get; private set; }
+
+        public void MarkDefective() => IsDefective = true;
         public SupermarketContainerZone PlacedZone => _placedZone;
         public int PlacedSlotIndex => _placedSlotIndex;
         public Collider InteractionCollider => interactionCollider != null ? interactionCollider : interactionCollider = GetComponentInChildren<Collider>();

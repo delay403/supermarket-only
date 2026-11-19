@@ -39,6 +39,8 @@ namespace Game.SupermarketOrganize
         public int Capacity => Rows * Columns;
         public int PlacedCount => _placedItems.Count;
         public bool IsFull => _placedItems.Count >= Capacity;
+        public bool IsFullyStocked => IsFull && _placedItems.TrueForAll(
+            item => item != null && item.State == SupermarketItemState.OnShelf);
         public int NextSlotIndex => PlacedCount;
         public Collider ZoneTrigger => zoneTrigger != null ? zoneTrigger : zoneTrigger = GetComponent<Collider>();
 
@@ -57,7 +59,7 @@ namespace Game.SupermarketOrganize
         public bool TryAcceptItem(SupermarketItem item, out int slotIndex)
         {
             slotIndex = -1;
-            if (item == null || IsFull || !MatchesItem(item.ItemId))
+            if (item == null || item.IsDefective || IsFull || !MatchesItem(item.ItemId))
                 return false;
 
             slotIndex = _placedItems.Count;

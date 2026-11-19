@@ -26,6 +26,9 @@ namespace Game.SupermarketOrganize
         bool _introFinished = true;
         float _scannerHighlightUntil;
         int _runScore;
+        string _qualityFeedback;
+        float _qualityFeedbackUntil;
+        readonly HashSet<SupermarketContainerZone> _rewardedShelves = new HashSet<SupermarketContainerZone>();
         bool _runSettled;
         bool _runEnding;
         bool _countdownActive;
@@ -44,6 +47,11 @@ namespace Game.SupermarketOrganize
 
         public bool IsGameRunning => _gameRunning && _introFinished;
         public int RunScore => _runScore;
+        public int NormalItemTarget { get; private set; }
+        public int NormalItemsStocked { get; private set; }
+        public int DefectiveItemTarget { get; private set; }
+        public int DefectiveItemsDiscarded { get; private set; }
+        public string QualityFeedback => Time.unscaledTime < _qualityFeedbackUntil ? _qualityFeedback : null;
         public bool IsRunSettled => _runSettled;
         public bool IsRunEnding => _runEnding;
         public float RemainingCountdownSeconds => Mathf.Max(0f, _countdownRemaining);
@@ -65,7 +73,7 @@ namespace Game.SupermarketOrganize
                 var count = 0;
                 for (var i = 0; i < _zones.Count; i++)
                 {
-                    if (_zones[i] != null && _zones[i].IsFull)
+                    if (_zones[i] != null && _zones[i].IsFullyStocked)
                         count++;
                 }
 
@@ -145,8 +153,14 @@ namespace Game.SupermarketOrganize
                 _itemsById[item.ItemId] = list;
             }
 
-            if (!list.Contains(item))
-                list.Add(item);
+            if (list.Contains(item))
+                return;
+
+            list.Add(item);
+            if (item.IsDefective)
+                DefectiveItemTarget++;
+            else
+                NormalItemTarget++;
 
             if (item.State == SupermarketItemState.OnGround && !_groundItems.Contains(item))
             {
@@ -234,6 +248,13 @@ namespace Game.SupermarketOrganize
 
         public void ClearRegisteredWorldContent()
         {
+            NormalItemTarget = 0;
+            NormalItemsStocked = 0;
+            DefectiveItemTarget = 0;
+            DefectiveItemsDiscarded = 0;
+            _qualityFeedback = null;
+            _qualityFeedbackUntil = 0f;
+            _rewardedShelves.Clear();
             _zones.Clear();
             _groundItems.Clear();
             _itemsById.Clear();
@@ -389,7 +410,7 @@ namespace Game.SupermarketOrganize
                 for (var i = 0; i < items.Count; i++)
                 {
                     var item = items[i];
-                    if (item == null || item.State != SupermarketItemState.InHandle)
+                    if (item == null || item.IsDefective || item.State != SupermarketItemState.InHandle)
                         continue;
 
                     if (FindZoneForItemId(item.ItemId) != null)
@@ -419,7 +440,7 @@ namespace Game.SupermarketOrganize
             for (var i = 0; i < _groundItems.Count; i++)
             {
                 var item = _groundItems[i];
-                if (item == null || item.State != SupermarketItemState.OnGround)
+                if (item == null || item.IsDefective || item.State != SupermarketItemState.OnGround)
                     continue;
 
                 var settle = item.GetComponent<SupermarketItemPhysicsSettle>();
@@ -442,7 +463,7 @@ namespace Game.SupermarketOrganize
 
         public bool TryAutoPlaceGroundItemToShelf(SupermarketItem item)
         {
-            if (!IsGameRunning || item == null || item.State != SupermarketItemState.OnGround)
+            if (!IsGameRunning || item == null || item.IsDefective || item.State != SupermarketItemState.OnGround)
                 return false;
 
             var zone = FindZoneForItemId(item.ItemId);
@@ -498,7 +519,7 @@ namespace Game.SupermarketOrganize
             for (var i = 0; i < _groundItems.Count; i++)
             {
                 var candidate = _groundItems[i];
-                if (candidate == null || candidate.State != SupermarketItemState.OnGround)
+                if (candidate == null || candidate.IsDefective || candidate.State != SupermarketItemState.OnGround)
                     continue;
 
                 var settle = candidate.GetComponent<SupermarketItemPhysicsSettle>();
@@ -524,7 +545,7 @@ namespace Game.SupermarketOrganize
 
         public bool TryRobotPickUp(SupermarketItem item, Transform robotHandle, Action onComplete)
         {
-            if (!IsGameRunning || item == null || robotHandle == null
+            if (!IsGameRunning || item == null || item.IsDefective || robotHandle == null
                 || item.State != SupermarketItemState.OnGround)
                 return false;
 
@@ -661,9 +682,15 @@ namespace Game.SupermarketOrganize
             if (!IsGameRunning || zone == null)
                 return false;
 
-            var item = _handleZone.CurrentItem;
+            var item = CurrentItem;
             if (item == null || item.State != SupermarketItemState.InHandle)
                 return false;
+
+            if (item.IsDefective)
+            {
+                ShowQualityFeedback("商品不合格，请投入垃圾桶");
+                return false;
+            }
 
             if (!zone.TryAcceptItem(item, out var slotIndex))
                 return false;
@@ -682,6 +709,52 @@ namespace Game.SupermarketOrganize
             return true;
         }
 
+        public bool TryDiscardCurrentItem(Vector3 targetWorld)
+        {
+            var item = CurrentItem;
+            if (!IsGameRunning || item == null || item.State != SupermarketItemState.InHandle)
+                return false;
+
+            if (!item.IsDefective)
+            {
+                ShowQualityFeedback("不要浪费正常商品");
+                return false;
+            }
+
+            if (!_handleZone.TryRemove(item))
+                return false;
+
+            item.PrepareForHandle();
+            item.SetState(SupermarketItemState.Moving);
+            item.gameObject.SetActive(true);
+            item.transform.SetParent(null, true);
+            HandleCountChanged?.Invoke(_handleZone.Count, _handleZone.MaxCapacity);
+            BeginArcMoveWorld(item, targetWorld, () =>
+            {
+                if (item == null)
+                    return;
+
+                item.SetState(SupermarketItemState.Discarded);
+                item.gameObject.SetActive(false);
+                DefectiveItemsDiscarded++;
+                AddRunScore(2);
+                ShowQualityFeedback("残次品处理成功 +2 金币");
+                ProgressChanged?.Invoke();
+                CheckVictory();
+            });
+            return true;
+        }
+
+        public static string GetItemQualityHint(SupermarketItem item) => item.IsDefective
+            ? "商品状态：包装破损\n请投入垃圾桶"
+            : "商品状态：正常\n请放入对应货架";
+
+        void ShowQualityFeedback(string message)
+        {
+            _qualityFeedback = message;
+            _qualityFeedbackUntil = Time.unscaledTime + 2f;
+        }
+
         public bool EvaluateShelf(SupermarketContainerZone zone, out bool isCorrect, out bool showExtraTip)
         {
             isCorrect = false;
@@ -693,7 +766,7 @@ namespace Game.SupermarketOrganize
             if (current == null)
                 return true;
 
-            isCorrect = zone.MatchesItem(current.ItemId);
+            isCorrect = !current.IsDefective && zone.MatchesItem(current.ItemId);
             showExtraTip = zone.HasPlacedSameIdBefore;
             return true;
         }
@@ -717,6 +790,8 @@ namespace Game.SupermarketOrganize
                 return;
 
             item.SetState(SupermarketItemState.InHandle);
+            if (item == CurrentItem)
+                ShowQualityFeedback(GetItemQualityHint(item));
             _handleZone.RelayoutHeldItems();
             item.ReleaseTransformControl();
             RefreshHeldItemHighlight();
@@ -737,14 +812,13 @@ namespace Game.SupermarketOrganize
             RefreshSameIdHighlights();
 
             SupermarketOrganizePresentationFx.PlayPlace(zone.GetShelfCompleteFxWorldPosition());
-            if (zone.IsFull)
+            NormalItemsStocked++;
+            AddRunScore(1);
+            ShowQualityFeedback("商品上架成功 +1 金币");
+            if (zone.IsFullyStocked && _rewardedShelves.Add(zone))
             {
                 SupermarketOrganizePresentationFx.PlayShelfComplete(zone.GetShelfCompleteFxWorldPosition());
-                GrantPlacementRewards(zone, shelfCompleted: true);
-            }
-            else
-            {
-                GrantPlacementRewards(zone, shelfCompleted: false);
+                AddRunScore(Mathf.Max(0, _config != null ? _config.coinsPerCompletedShelf : 0));
             }
 
             ProgressChanged?.Invoke();
@@ -768,23 +842,6 @@ namespace Game.SupermarketOrganize
 
             _highlights.ClearAllHeldVisuals(_handleZone.Items);
             _highlights.SetHeldItem(_handleZone.CurrentItem);
-        }
-
-        void GrantPlacementRewards(SupermarketContainerZone zone, bool shelfCompleted)
-        {
-            if (_config == null)
-                return;
-
-            var perItem = Mathf.Max(0, _config.coinsPerPlacedItem);
-            if (perItem > 0)
-                AddRunScore(perItem);
-
-            if (shelfCompleted)
-            {
-                var shelfBonus = Mathf.Max(0, _config.coinsPerCompletedShelf);
-                if (shelfBonus > 0)
-                    AddRunScore(shelfBonus);
-            }
         }
 
         void AddRunScore(int amount)
@@ -846,13 +903,7 @@ namespace Game.SupermarketOrganize
             if (_handleZone != null && _handleZone.Count > 0)
                 return false;
 
-            if (TotalShelfCount > 0 && CompletedShelfCount < TotalShelfCount)
-                return false;
-
-            if (TotalItemSlotCount > 0 && PlacedItemCount < TotalItemSlotCount)
-                return false;
-
-            return true;
+            return NormalItemsStocked >= NormalItemTarget && DefectiveItemsDiscarded >= DefectiveItemTarget;
         }
 
         bool HasItemsInMotion()

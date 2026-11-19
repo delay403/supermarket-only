@@ -6,6 +6,8 @@ namespace Game.UI.ViewModels
         public int TotalShelfCount;
         public int PlacedItemCount;
         public int TotalItemSlotCount;
+        public int DefectiveItemsDiscarded;
+        public int DefectiveItemTarget;
         public int RunScore;
         public int CoinsGranted;
         public bool IsVictory;
